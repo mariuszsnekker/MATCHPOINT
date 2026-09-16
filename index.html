@@ -1,6 +1,170 @@
-<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MatchPoint — terminarz i prognozy</title><meta name="theme-color" content="#101820"><style>*{box-sizing:border-box}body{margin:0;background:#101820;color:#f4f6f7;font:16px system-ui,-apple-system,sans-serif}header{background:#182733;padding:20px max(18px,calc((100vw - 950px)/2));border-bottom:1px solid #33424e}h1{margin:0;font-size:27px}h1 span,.lime{color:#c5f65a}main{max-width:950px;margin:auto;padding:22px 15px}.hero{background:linear-gradient(115deg,#244635,#182b39);border:1px solid #44624b;border-radius:17px;padding:22px;margin-bottom:18px}p{line-height:1.5;color:#b9c6cd}.controls{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}select,input,button{font:inherit;border-radius:9px;padding:11px;background:#223340;border:1px solid #4c5c66;color:white}button{cursor:pointer}button:hover{border-color:#c5f65a}.match{background:#1c2a35;border:1px solid #334652;border-radius:13px;padding:17px;margin:12px 0}.top{display:flex;justify-content:space-between;gap:10px;color:#b5c6ce;font-size:13px}.teams{font-size:19px;font-weight:700;margin:14px 0}.pill{display:inline-block;border-radius:8px;background:#334735;padding:5px 9px;color:#c5f65a;font-size:12px}.notice{background:#2c3025;border:1px solid #5a5d37;border-radius:10px;padding:12px;color:#e6e2bb}.links a{display:inline-block;margin:5px 8px 5px 0;color:#c5f65a}.small{font-size:13px}.hidden{display:none}footer{padding:25px;text-align:center;color:#98aab5}</style></head><body><header><h1>MATCH<span>POINT</span> ⚽</h1><div class="small">Europejskie ligi • terminarze • źródła prognoz</div></header><main><section class="hero"><h2>Twoje centrum futbolu</h2><p>Aktualizowany terminarz z bezpłatnego źródła danych. Prognozy ekspertów otwieraj u ich autorów — bez kopiowania i wymyślania typów.</p><div id="updated" class="pill">Oczekiwanie na pierwszą aktualizację</div></section><div id="warning" class="notice">Strona wymaga pierwszego uruchomienia aktualizacji. Nie ma jeszcze aktualnych meczów.</div><div class="controls"><select id="league" aria-label="Liga"><option value="">Wszystkie ligi</option></select><input id="search" placeholder="Szukaj drużyny" aria-label="Szukaj drużyny"><button id="reload">Odśwież</button></div><h2>Terminarz i wyniki</h2><div id="matches"></div><h2>Prognozy zewnętrznych typerów</h2><p>Przejdź do oryginalnych publikacji. MatchPoint nie pobiera automatycznie cudzych typów ani nie sugeruje, że są one zweryfikowane.</p><div class="links"><a href="https://www.forebet.com/" target="_blank" rel="noopener noreferrer">Forebet ↗</a><a href="https://www.predictz.com/" target="_blank" rel="noopener noreferrer">PredictZ ↗</a></div><h2>Moje typy</h2><p>Notatki zapisywane tylko na tym urządzeniu. Nie są publikowane w internecie.</p><textarea id="notes" style="width:100%;min-height:125px;background:#223340;color:white;border:1px solid #4c5c66;border-radius:10px;padding:12px" placeholder="Wpisz własne analizy..."></textarea><div class="controls"><button id="save">Zapisz notatki</button><button id="export">Eksportuj notatki</button></div><p class="small">Dane: <a style="color:#c5f65a" href="https://www.football-data.org/">football-data.org</a>. Wyniki w darmowym planie mogą być opóźnione. Brak kursów, prognoz AI i automatycznego agregowania typów społeczności. Brak gwarancji aktualizacji o dokładnej godzinie.</p></main><footer>MatchPoint • serwis informacyjny, bez przyjmowania zakładów</footer><script>
-const $=id=>document.getElementById(id);let data={matches:[]};const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function render(){let q=$('search').value.toLowerCase(),l=$('league').value;let list=data.matches.filter(m=>(!l||m.league===l)&&(!q||(m.home+' '+m.away).toLowerCase().includes(q)));$('matches').innerHTML=list.length?list.map(m=>`<article class="match"><div class="top"><span>${safe(m.league)}</span><time>${m.utc?new Date(m.utc).toLocaleString('pl-PL',{timeZone:'Europe/Oslo',dateStyle:'medium',timeStyle:'short'}):'Termin nieznany'}</time></div><div class="teams">${safe(m.home)} – ${safe(m.away)}</div><span class="pill">${safe(m.status||'Brak statusu')}${m.status==='FINISHED'&&m.score?.home!==null&&m.score?.away!==null?' • '+safe(m.score.home)+':'+safe(m.score.away):''}</span></article>`).join(''):'<p>Brak spotkań dla wybranych filtrów lub brak pobranych danych.</p>'}
-async function load(){try{let r=await fetch('./data.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);data=await r.json();if(!Array.isArray(data.matches))throw Error('Nieprawidłowe dane');$('updated').textContent=data.updatedAt?'Aktualizacja: '+new Date(data.updatedAt).toLocaleString('pl-PL',{timeZone:'Europe/Oslo'}):'Brak aktualizacji';$('warning').classList.toggle('hidden',!!data.updatedAt&&!data.errors?.length);if(data.errors?.length)$('warning').textContent='Niektóre ligi nie zostały pobrane: '+data.errors.join('; ');else if(!data.updatedAt)$('warning').textContent='Brak danych. Uruchom workflow w GitHub Actions.';let leagues=[...new Set(data.matches.map(m=>m.league))].sort();$('league').innerHTML='<option value="">Wszystkie ligi</option>'+leagues.map(x=>`<option value="${safe(x)}">${safe(x)}</option>`).join('');render()}catch(e){$('warning').classList.remove('hidden');$('warning').textContent='Nie można pobrać danych. Otwórz stronę przez adres GitHub Pages (nie jako lokalny plik). '+e.message;render()}}
-$('search').addEventListener('input',render);$('league').addEventListener('change',render);$('reload').addEventListener('click',load);$('notes').value=localStorage.getItem('mp_notes')||'';$('save').onclick=()=>{localStorage.setItem('mp_notes',$('notes').value);alert('Zapisano na tym urządzeniu')};$('export').onclick=()=>{let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([$('notes').value],{type:'text/plain;charset=utf-8'}));a.download='matchpoint-notatki.txt';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};load();
-</script></body></html>
+
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MatchPoint — terminarz i wyniki</title>
+<meta name="theme-color" content="#101820">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101820;color:#f4f6f7;font:16px system-ui,-apple-system,sans-serif}
+header{background:#182733;padding:20px;border-bottom:1px solid #33424e}
+h1{margin:0;font-size:27px}
+h1 span,.lime{color:#c5f65a}
+main{max-width:950px;margin:auto;padding:22px 15px}
+.hero{background:linear-gradient(115deg,#244635,#182b39);border:1px solid #44624b;border-radius:17px;padding:22px;margin-bottom:18px}
+p{line-height:1.5;color:#b9c6cd}
+.controls{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}
+select,input,button{font:inherit;border-radius:9px;padding:11px;background:#223340;border:1px solid #4c5c66;color:white}
+button{cursor:pointer}
+.match{background:#1c2a35;border:1px solid #334652;border-radius:13px;padding:17px;margin:12px 0}
+.top{display:flex;justify-content:space-between;gap:10px;color:#b5c6ce;font-size:13px}
+.teams{font-size:19px;font-weight:700;margin:14px 0}
+.pill{display:inline-block;border-radius:8px;background:#334735;padding:5px 9px;color:#c5f65a;font-size:12px}
+.notice{background:#2c3025;border:1px solid #5a5d37;border-radius:10px;padding:12px;color:#e6e2bb}
+.links a{display:inline-block;margin:5px 8px 5px 0;color:#c5f65a}
+.small{font-size:13px}
+.hidden{display:none}
+footer{padding:25px;text-align:center;color:#98aab5}
+</style>
+</head>
+<body>
+<header>
+<h1>MATCH<span>POINT</span> ⚽</h1>
+<div class="small">Europejskie ligi • terminarze • wyniki</div>
+</header>
+<main>
+<section class="hero">
+<h2>Twoje centrum futbolu</h2>
+<p>Aktualizowany terminarz i wyniki europejskich lig piłkarskich.</p>
+<div id="updated" class="pill">Oczekiwanie na aktualizację</div>
+</section>
+
+<div id="warning" class="notice">Oczekiwanie na dane meczowe.</div>
+
+<div class="controls">
+<select id="league" aria-label="Liga">
+<option value="">Wszystkie ligi</option>
+</select>
+<input id="search" placeholder="Szukaj drużyny" aria-label="Szukaj drużyny">
+<button id="reload">Odśwież</button>
+</div>
+
+<h2>Terminarz i wyniki</h2>
+<div id="matches"></div>
+
+<h2>Prognozy zewnętrznych typerów</h2>
+<p>Przejdź do oryginalnych publikacji.</p>
+<div class="links">
+<a href="https://www.forebet.com/" target="_blank" rel="noopener noreferrer">Forebet ↗</a>
+<a href="https://www.predictz.com/" target="_blank" rel="noopener noreferrer">PredictZ ↗</a>
+</div>
+
+<h2>Moje typy</h2>
+<p>Notatki zapisywane tylko na tym urządzeniu.</p>
+<textarea id="notes" style="width:100%;min-height:125px;background:#223340;color:white;border:1px solid #4c5c66;border-radius:10px;padding:12px" placeholder="Wpisz własne analizy..."></textarea>
+
+<div class="controls">
+<button id="save">Zapisz notatki</button>
+<button id="export">Eksportuj notatki</button>
+</div>
+
+<p class="small">Dane: <a style="color:#c5f65a" href="https://www.football-data.org/">football-data.org</a>. Wyniki w darmowym planie mogą być opóźnione.</p>
+</main>
+
+<footer>MatchPoint • serwis informacyjny</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+let data={matches:[]};
+
+const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({
+'&':'&amp;',
+'<':'&lt;',
+'>':'&gt;',
+'"':'&quot;',
+"'":'&#39;'
+}[c]));
+
+function render(){
+let q=$('search').value.toLowerCase();
+let l=$('league').value;
+
+let list=data.matches.filter(m=>
+(!l||m.league===l)&&
+(!q||(m.home+' '+m.away).toLowerCase().includes(q))
+);
+
+$('matches').innerHTML=list.length?
+list.map(m=>`
+<article class="match">
+<div class="top">
+<span>${safe(m.league)}</span>
+<time>${m.utc?new Date(m.utc).toLocaleString('pl-PL',{timeZone:'Europe/Oslo',dateStyle:'medium',timeStyle:'short'}):'Termin nieznany'}</time>
+</div>
+<div class="teams">${safe(m.home)} – ${safe(m.away)}</div>
+<span class="pill">
+${safe(m.status||'Brak statusu')}
+${m.status==='FINISHED'&&m.score?.home!=null&&m.score?.away!=null?' • '+safe(m.score.home)+':'+safe(m.score.away):''}
+</span>
+</article>
+`).join(''):
+'<p>Brak spotkań dla wybranych filtrów lub brak pobranych danych.</p>';
+}
+
+async function load(){
+try{
+let r=await fetch('./data.json?ts='+Date.now(),{cache:'no-store'});
+if(!r.ok)throw Error('HTTP '+r.status);
+
+data=await r.json();
+if(!Array.isArray(data.matches))throw Error('Nieprawidłowe dane');
+
+$('updated').textContent=data.updatedAt?
+'Aktualizacja: '+new Date(data.updatedAt).toLocaleString('pl-PL',{timeZone:'Europe/Oslo'}):
+'Brak aktualizacji';
+
+$('warning').classList.toggle('hidden',!!data.updatedAt&&!data.errors?.length);
+
+if(data.errors?.length)
+$('warning').textContent='Niektóre ligi nie zostały pobrane: '+data.errors.join('; ');
+else if(!data.updatedAt)
+$('warning').textContent='Brak danych. Uruchom workflow w GitHub Actions.';
+
+let leagues=[...new Set(data.matches.map(m=>m.league))].sort();
+
+$('league').innerHTML='<option value="">Wszystkie ligi</option>'+
+leagues.map(x=>`<option value="${safe(x)}">${safe(x)}</option>`).join('');
+
+render();
+}catch(e){
+$('warning').classList.remove('hidden');
+$('warning').textContent='Nie można pobrać danych. Otwórz stronę przez GitHub Pages. '+e.message;
+render();
+}
+}
+
+$('search').addEventListener('input',render);
+$('league').addEventListener('change',render);
+$('reload').addEventListener('click',load);
+
+$('notes').value=localStorage.getItem('mp_notes')||'';
+
+$('save').onclick=()=>{
+localStorage.setItem('mp_notes',$('notes').value);
+alert('Zapisano na tym urządzeniu');
+};
+
+$('export').onclick=()=>{
+let a=document.createElement('a');
+a.href=URL.createObjectURL(new Blob([$('notes').value],{type:'text/plain;charset=utf-8'}));
+a.download='matchpoint-notatki.txt';
+a.click();
+setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+};
+
+load();
+</script>
+</body>
+</html>
