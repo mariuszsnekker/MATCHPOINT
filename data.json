@@ -1,77 +1,17 @@
 {
-  "updatedAt": "2026-09-16T17:01:15.443490+00:00",
+  "updatedAt": "2026-09-17T06:31:47.839836+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
     {
-      "id": "564678",
+      "id": "564685",
       "league": "La Liga",
-      "utc": "2026-09-15T17:00:00Z",
-      "home": "Rayo Vallecano de Madrid",
-      "away": "RCD Espanyol de Barcelona",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 1
-      }
-    },
-    {
-      "id": "564680",
-      "league": "La Liga",
-      "utc": "2026-09-15T18:00:00Z",
-      "home": "Deportivo Alavés",
-      "away": "Valencia CF",
-      "status": "FINISHED",
+      "utc": "2026-09-16T00:00:00Z",
+      "home": "Levante UD",
+      "away": "Athletic Club",
+      "status": "POSTPONED",
       "score": {
         "home": 0,
-        "away": 1
-      }
-    },
-    {
-      "id": "558240",
-      "league": "Eredivisie",
-      "utc": "2026-09-15T18:00:00Z",
-      "home": "AFC Ajax",
-      "away": "Willem II Tilburg",
-      "status": "FINISHED",
-      "score": {
-        "home": 5,
-        "away": 1
-      }
-    },
-    {
-      "id": "561825",
-      "league": "Championship",
-      "utc": "2026-09-15T18:45:00Z",
-      "home": "Middlesbrough FC",
-      "away": "Millwall FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 2
-      }
-    },
-    {
-      "id": "561828",
-      "league": "Championship",
-      "utc": "2026-09-15T18:45:00Z",
-      "home": "Bristol City FC",
-      "away": "Lincoln City FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 1
-      }
-    },
-    {
-      "id": "564681",
-      "league": "La Liga",
-      "utc": "2026-09-15T19:30:00Z",
-      "home": "Elche CF",
-      "away": "Real Madrid CF",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 3
+        "away": 0
       }
     },
     {
@@ -80,10 +20,10 @@
       "utc": "2026-09-16T17:00:00Z",
       "home": "RC Deportivo La Coruña",
       "away": "Sevilla FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -92,22 +32,10 @@
       "utc": "2026-09-16T17:00:00Z",
       "home": "Club Atlético de Madrid",
       "away": "CA Osasuna",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": "564685",
-      "league": "La Liga",
-      "utc": "2026-09-16T19:30:00Z",
-      "home": "Levante UD",
-      "away": "Athletic Club",
-      "status": "TIMED",
-      "score": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 0
       }
     },
     {
@@ -116,10 +44,10 @@
       "utc": "2026-09-16T19:30:00Z",
       "home": "FC Barcelona",
       "away": "Real Racing Club de Santander",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 7,
+        "away": 2
       }
     },
     {
