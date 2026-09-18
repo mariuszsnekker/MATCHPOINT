@@ -150,7 +150,7 @@ function render(){
         `;
       }).join('')
     : '<p>Brak spotkań dla wybranych filtrów lub brak pobranych danych.</p>';
-}
+
 }async function load(){
 try{
 let r=await fetch('./data.json?ts='+Date.now(),{cache:'no-store'});
