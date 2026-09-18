@@ -91,33 +91,67 @@ const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({
 "'":'&#39;'
 }[c]));
 
+
 function render(){
-let q=$('search').value.toLowerCase();
-let l=$('league').value;
+  const q = $('search').value.toLowerCase();
+  const l = $('league').value;
 
-let list=data.matches.filter(m=>
-(!l||m.league===l)&&
-(!q||(m.home+' '+m.away).toLowerCase().includes(q))
-);
+  const list = data.matches.filter(m =>
+    (!l || m.league === l) &&
+    (!q || (m.home + ' ' + m.away).toLowerCase().includes(q))
+  );
 
-$('matches').innerHTML=list.length?
-list.map(m=>`
-<article class="match">
-<div class="top">
-<span>${safe(m.league)}</span>
-<time>${m.utc?new Date(m.utc).toLocaleString('pl-PL',{timeZone:'Europe/Oslo',dateStyle:'medium',timeStyle:'short'}):'Termin nieznany'}</time>
-</div>
-<div class="teams">${safe(m.home)} – ${safe(m.away)}</div>
-<span class="pill">
-${safe(m.status||'Brak statusu')}
-${m.status==='FINISHED'&&m.score?.home!=null&&m.score?.away!=null?' • '+safe(m.score.home)+':'+safe(m.score.away):''}
-</span>
-</article>
-`).join(''):
-'<p>Brak spotkań dla wybranych filtrów lub brak pobranych danych.</p>';
+  $('matches').innerHTML = list.length
+    ? list.map(m => {
+        const date = m.utc
+          ? new Date(m.utc).toLocaleString('pl-PL', {
+              timeZone: 'Europe/Oslo',
+              dateStyle: 'medium',
+              timeStyle: 'short'
+            })
+          : 'Termin nieznany';
+
+        const hasScore = m.score?.home != null && m.score?.away != null;
+        const score = hasScore
+          ? `${safe(m.score.home)} : ${safe(m.score.away)}`
+          : 'Brak wyniku';
+
+        return `
+          <article class="match">
+            <div class="top">
+              <span>${safe(m.league)}</span>
+              <time>${safe(date)}</time>
+            </div>
+
+            <div class="teams">
+              ${safe(m.home)} – ${safe(m.away)}
+            </div>
+
+            <span class="pill">
+              ${safe(m.status || 'Brak statusu')}
+              ${m.status === 'FINISHED' && hasScore ? ' • ' + score : ''}
+            </span>
+
+            <details style="margin-top:16px">
+              <summary style="cursor:pointer;color:#c5f65a;font-weight:600">
+                Szczegóły meczu
+              </summary>
+
+              <div style="padding-top:12px;line-height:1.8">
+                <div><strong>Rozgrywki:</strong> ${safe(m.league)}</div>
+                <div><strong>Gospodarze:</strong> ${safe(m.home)}</div>
+                <div><strong>Goście:</strong> ${safe(m.away)}</div>
+                <div><strong>Termin (Norwegia):</strong> ${safe(date)}</div>
+                <div><strong>Status:</strong> ${safe(m.status || 'Brak statusu')}</div>
+                <div><strong>Wynik:</strong> ${score}</div>
+              </div>
+            </details>
+          </article>
+        `;
+      }).join('')
+    : '<p>Brak spotkań dla wybranych filtrów lub brak pobranych danych.</p>';
 }
-
-async function load(){
+}async function load(){
 try{
 let r=await fetch('./data.json?ts='+Date.now(),{cache:'no-store'});
 if(!r.ok)throw Error('HTTP '+r.status);
