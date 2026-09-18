@@ -14,6 +14,7 @@ start = (now - datetime.timedelta(days=1)).date()
 end = (now + datetime.timedelta(days=7)).date()
 
 matches = []
+history = []
 errors = []
 
 # Dotychczasowe ligi
@@ -140,7 +141,8 @@ result = {
     "source": "football-data.org + TheSportsDB",
     "matches": matches,
     "errors": errors,
-    "predictions": []
+    "predictions": [],
+    "history": history
 }
 
 (ROOT / "data.json").write_text(
