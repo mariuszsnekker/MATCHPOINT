@@ -146,6 +146,34 @@ function render(){
                 <div><strong>Wynik:</strong> ${score}</div>
               </div>
             </details>
+            
+${Array.isArray(data.history) && data.history.length
+  ? (() => {
+      const historia = data.history
+        .filter(h =>
+          h.home === m.home || h.away === m.home ||
+          h.home === m.away || h.away === m.away
+        )
+        .slice(-10)
+        .reverse();
+
+      return historia.length
+        ? `<details style="margin-top:12px">
+            <summary style="cursor:pointer;color:#c5f65a;font-weight:600">
+              Historia drużyn
+            </summary>
+            <div style="padding-top:10px;line-height:1.8">
+              ${historia.map(h => `
+                <div>
+                  ${safe(h.home)} – ${safe(h.away)}:
+                  ${h.score?.home ?? '–'} : ${h.score?.away ?? '–'}
+                </div>
+              `).join('')}
+            </div>
+          </details>`
+        : '';
+    })()
+  : ''}
           </article>
         `;
       }).join('')
