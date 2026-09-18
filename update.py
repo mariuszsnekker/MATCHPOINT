@@ -156,13 +156,72 @@ if not matches:
     )
 
 matches.sort(key=lambda m: m.get("utc") or "")
+# Prognoza formy na podstawie 5 ostatnich meczów przed spotkaniem
+predictions = []
 
+finished = [
+    m for m in matches + history
+    if m.get("status") == "FINISHED"
+    and m.get("utc")
+    and m.get("score", {}).get("home") is not None
+    and m.get("score", {}).get("away") is not None
+]
+
+for match in matches:
+    if match.get("status") not in ("TIMED", "SCHEDULED"):
+        continue
+
+    kickoff = match.get("utc")
+    if not kickoff:
+        continue
+
+    def team_form(team):
+        previous = [
+            m for m in finished
+            if m["utc"] < kickoff
+            and team in (m.get("home"), m.get("away"))
+        ]
+        previous.sort(key=lambda m: m["utc"], reverse=True)
+        previous = previous[:5]
+
+        points = 0
+        for m in previous:
+            home_goals = m["score"]["home"]
+            away_goals = m["score"]["away"]
+            goals_for, goals_against = (
+                (home_goals, away_goals)
+                if m["home"] == team
+                else (away_goals, home_goals)
+            )
+            points += (
+                3 if goals_for > goals_against
+                else 1 if goals_for == goals_against
+                else 0
+            )
+
+        return {"matches": len(previous), "points": points}
+
+    home_form = team_form(match["home"])
+    away_form = team_form(match["away"])
+
+    predictions.append({
+        "matchId": match["id"],
+        "home": match["home"],
+        "away": match["away"],
+        "homeForm": home_form,
+        "awayForm": away_form,
+        "note": (
+            "Za mało danych"
+            if home_form["matches"] < 5 or away_form["matches"] < 5
+            else "Porównanie formy z ostatnich 5 meczów"
+        )
+    })
 result = {
     "updatedAt": now.isoformat(),
     "source": "football-data.org + TheSportsDB",
     "matches": matches,
     "errors": errors,
-    "predictions": [],
+    "predictions": predictions,
     "history": history
 }
 
