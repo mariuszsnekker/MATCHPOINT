@@ -1,65 +1,17 @@
 {
-  "updatedAt": "2026-09-17T06:31:47.839836+00:00",
+  "updatedAt": "2026-09-18T06:30:07.229871+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "564685",
-      "league": "La Liga",
-      "utc": "2026-09-16T00:00:00Z",
-      "home": "Levante UD",
-      "away": "Athletic Club",
-      "status": "POSTPONED",
-      "score": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "564679",
-      "league": "La Liga",
-      "utc": "2026-09-16T17:00:00Z",
-      "home": "RC Deportivo La Coruña",
-      "away": "Sevilla FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 1
-      }
-    },
-    {
-      "id": "564684",
-      "league": "La Liga",
-      "utc": "2026-09-16T17:00:00Z",
-      "home": "Club Atlético de Madrid",
-      "away": "CA Osasuna",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 0
-      }
-    },
-    {
-      "id": "564687",
-      "league": "La Liga",
-      "utc": "2026-09-16T19:30:00Z",
-      "home": "FC Barcelona",
-      "away": "Real Racing Club de Santander",
-      "status": "FINISHED",
-      "score": {
-        "home": 7,
-        "away": 2
-      }
-    },
     {
       "id": "564686",
       "league": "La Liga",
       "utc": "2026-09-17T17:00:00Z",
       "home": "Real Betis Balompié",
       "away": "Getafe CF",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -68,10 +20,10 @@
       "utc": "2026-09-17T19:30:00Z",
       "home": "Málaga CF",
       "away": "Villarreal CF",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       }
     },
     {
