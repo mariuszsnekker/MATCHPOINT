@@ -96,10 +96,13 @@ function render(){
   const q = $('search').value.toLowerCase();
   const l = $('league').value;
 
-  const list = data.matches.filter(m =>
-    (!l || m.league === l) &&
-    (!q || (m.home + ' ' + m.away).toLowerCase().includes(q))
-  );
+  const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+
+const list = data.matches.filter(m =>
+  m.utc && new Date(m.utc).getTime() >= cutoff &&
+  (!l || m.league === l) &&
+  (!q || (m.home + ' ' + m.away).toLowerCase().includes(q))
+);
 
   $('matches').innerHTML = list.length
     ? list.map(m => {
