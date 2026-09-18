@@ -14,8 +14,29 @@ start = (now - datetime.timedelta(days=1)).date()
 end = (now + datetime.timedelta(days=7)).date()
 
 matches = []
-history = []
 errors = []
+
+# Zachowaj zakończone mecze z poprzedniej aktualizacji
+history = []
+data_file = ROOT / "data.json"
+
+if data_file.exists():
+    try:
+        previous = json.loads(data_file.read_text(encoding="utf-8"))
+        history = previous.get("history", [])
+
+        for match in previous.get("matches", []):
+            if match.get("status") == "FINISHED":
+                history.append(match)
+    except (OSError, ValueError, TypeError):
+        history = []
+
+# Usuń duplikaty na podstawie identyfikatora meczu
+history = list({
+    match["id"]: match
+    for match in history
+    if isinstance(match, dict) and match.get("id")
+}.values())
 
 # Dotychczasowe ligi
 comps = {
