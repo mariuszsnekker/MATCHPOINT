@@ -10,7 +10,7 @@ ROOT = Path(__file__).parent
 KEY = os.environ.get("FOOTBALL_DATA_TOKEN", "")
 
 now = datetime.datetime.now(datetime.timezone.utc)
-start = (now - datetime.timedelta(days=1)).date()
+start = (now - datetime.timedelta(days=30)).date()
 end = (now + datetime.timedelta(days=7)).date()
 
 matches = []
