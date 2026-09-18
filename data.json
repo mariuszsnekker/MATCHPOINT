@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T06:30:07.229871+00:00",
+  "updatedAt": "2026-09-18T19:15:31.248670+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
     {
@@ -32,10 +32,10 @@
       "utc": "2026-09-18T18:00:00Z",
       "home": "FC Groningen",
       "away": "PEC Zwolle",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -44,10 +44,10 @@
       "utc": "2026-09-18T18:30:00Z",
       "home": "FC Bayern München",
       "away": "1. FC Union Berlin",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -56,10 +56,10 @@
       "utc": "2026-09-18T18:45:00Z",
       "home": "AC Monza",
       "away": "US Sassuolo Calcio",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -68,10 +68,10 @@
       "utc": "2026-09-18T18:45:00Z",
       "home": "AS Monaco FC",
       "away": "Racing Club de Lens",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -80,10 +80,10 @@
       "utc": "2026-09-18T19:00:00Z",
       "home": "Brentford FC",
       "away": "Chelsea FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -92,10 +92,10 @@
       "utc": "2026-09-18T19:00:00Z",
       "home": "RCD Espanyol de Barcelona",
       "away": "Elche CF",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -104,10 +104,10 @@
       "utc": "2026-09-18T19:00:00Z",
       "home": "Bristol City FC",
       "away": "Watford FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -964,5 +964,6 @@
     }
   ],
   "errors": [],
-  "predictions": []
+  "predictions": [],
+  "history": []
 }
