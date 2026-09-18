@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:15:31.248670+00:00",
+  "updatedAt": "2026-09-18T19:35:13.350465+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
     {
@@ -34,7 +34,7 @@
       "away": "PEC Zwolle",
       "status": "IN_PLAY",
       "score": {
-        "home": 2,
+        "home": 3,
         "away": 0
       }
     },
@@ -46,7 +46,7 @@
       "away": "1. FC Union Berlin",
       "status": "IN_PLAY",
       "score": {
-        "home": 2,
+        "home": 3,
         "away": 0
       }
     },
@@ -70,7 +70,7 @@
       "away": "Racing Club de Lens",
       "status": "IN_PLAY",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       }
     },
@@ -965,5 +965,30 @@
   ],
   "errors": [],
   "predictions": [],
-  "history": []
+  "history": [
+    {
+      "id": "564686",
+      "league": "La Liga",
+      "utc": "2026-09-17T17:00:00Z",
+      "home": "Real Betis Balompié",
+      "away": "Getafe CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564683",
+      "league": "La Liga",
+      "utc": "2026-09-17T19:30:00Z",
+      "home": "Málaga CF",
+      "away": "Villarreal CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    }
+  ]
 }
