@@ -118,7 +118,9 @@ const list = data.matches.filter(m =>
         const score = hasScore
           ? `${safe(m.score.home)} : ${safe(m.score.away)}`
           : 'Brak wyniku';
-
+const prediction = (data.predictions || []).find(
+  p => String(p.matchId) === String(m.id)
+);
         return `
           <article class="match">
             <div class="top">
@@ -149,7 +151,22 @@ const list = data.matches.filter(m =>
                 <div><strong>Wynik:</strong> ${score}</div>
               </div>
             </details>
-            
+            ${prediction ? `
+  <details style="margin-top:12px">
+    <summary style="cursor:pointer;color:#c5f65a;font-weight:600">
+      Prognoza formy
+    </summary>
+    <div style="padding-top:10px;line-height:1.8">
+      <div><strong>${safe(prediction.home)}:</strong>
+        ${prediction.homeForm.points} pkt w ${prediction.homeForm.matches} meczach
+      </div>
+      <div><strong>${safe(prediction.away)}:</strong>
+        ${prediction.awayForm.points} pkt w ${prediction.awayForm.matches} meczach
+      </div>
+      <div>${safe(prediction.note)}</div>
+    </div>
+  </details>
+` : ''}
 ${Array.isArray(data.history) && data.history.length
   ? (() => {
       const historia = data.history
