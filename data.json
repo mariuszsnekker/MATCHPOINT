@@ -1,7 +1,4279 @@
 {
-  "updatedAt": "2026-09-18T19:35:13.350465+00:00",
+  "updatedAt": "2026-09-18T20:02:41.620881+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
+    {
+      "id": "564628",
+      "league": "La Liga",
+      "utc": "2026-08-19T19:00:00Z",
+      "home": "Club Atlético de Madrid",
+      "away": "Málaga CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "564638",
+      "league": "La Liga",
+      "utc": "2026-08-20T19:00:00Z",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Deportivo Alavés",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "559715",
+      "league": "Ligue 1",
+      "utc": "2026-08-21T18:45:00Z",
+      "home": "Olympique de Marseille",
+      "away": "RC Strasbourg Alsace",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "560542",
+      "league": "Premier League",
+      "utc": "2026-08-21T19:00:00Z",
+      "home": "Arsenal FC",
+      "away": "Coventry City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "564647",
+      "league": "La Liga",
+      "utc": "2026-08-21T19:00:00Z",
+      "home": "Real Betis Balompié",
+      "away": "Real Sociedad de Fútbol",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "560543",
+      "league": "Premier League",
+      "utc": "2026-08-22T11:30:00Z",
+      "home": "Hull City AFC",
+      "away": "Manchester United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "561773",
+      "league": "Championship",
+      "utc": "2026-08-22T11:30:00Z",
+      "home": "Birmingham City FC",
+      "away": "Bristol City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561781",
+      "league": "Championship",
+      "utc": "2026-08-22T11:30:00Z",
+      "home": "Lincoln City FC",
+      "away": "Portsmouth FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "561784",
+      "league": "Championship",
+      "utc": "2026-08-22T11:30:00Z",
+      "home": "Millwall FC",
+      "away": "Norwich City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "560544",
+      "league": "Premier League",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Ipswich Town FC",
+      "away": "Sunderland AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "560545",
+      "league": "Premier League",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Nottingham Forest FC",
+      "away": "Leeds United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "560546",
+      "league": "Premier League",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Everton FC",
+      "away": "Crystal Palace FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "561774",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Swansea City AFC",
+      "away": "Sheffield United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "561775",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "West Ham United FC",
+      "away": "Charlton Athletic FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561777",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Derby County FC",
+      "away": "Cardiff City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561778",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Preston North End FC",
+      "away": "Wolverhampton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "561779",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Wrexham AFC",
+      "away": "Watford FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "561780",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Blackburn Rovers FC",
+      "away": "Middlesbrough FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "561782",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Southampton FC",
+      "away": "Stoke City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561783",
+      "league": "Championship",
+      "utc": "2026-08-22T14:00:00Z",
+      "home": "Queens Park Rangers FC",
+      "away": "Bolton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "558232",
+      "league": "Eredivisie",
+      "utc": "2026-08-22T14:30:00Z",
+      "home": "Fortuna Sittard",
+      "away": "AZ",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "567283",
+      "league": "Primeira Liga",
+      "utc": "2026-08-22T14:30:00Z",
+      "home": "CS Marítimo",
+      "away": "Académico de Viseu FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "564641",
+      "league": "La Liga",
+      "utc": "2026-08-22T15:00:00Z",
+      "home": "Athletic Club",
+      "away": "Sevilla FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "559712",
+      "league": "Ligue 1",
+      "utc": "2026-08-22T15:15:00Z",
+      "home": "Racing Club de Lens",
+      "away": "AJ Auxerre",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "560547",
+      "league": "Premier League",
+      "utc": "2026-08-22T16:30:00Z",
+      "home": "Brentford FC",
+      "away": "Tottenham Hotspur FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "558629",
+      "league": "Serie A",
+      "utc": "2026-08-22T16:30:00Z",
+      "home": "Udinese Calcio",
+      "away": "Como 1907",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558632",
+      "league": "Serie A",
+      "utc": "2026-08-22T16:30:00Z",
+      "home": "FC Internazionale Milano",
+      "away": "AC Monza",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "558234",
+      "league": "Eredivisie",
+      "utc": "2026-08-22T16:45:00Z",
+      "home": "Sparta Rotterdam",
+      "away": "FC Utrecht",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "567279",
+      "league": "Primeira Liga",
+      "utc": "2026-08-22T17:00:00Z",
+      "home": "GD Estoril Praia",
+      "away": "Rio Ave FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "564643",
+      "league": "La Liga",
+      "utc": "2026-08-22T17:30:00Z",
+      "home": "Valencia CF",
+      "away": "RC Celta de Vigo",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "558631",
+      "league": "Serie A",
+      "utc": "2026-08-22T18:45:00Z",
+      "home": "Genoa CFC",
+      "away": "SSC Napoli",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "558636",
+      "league": "Serie A",
+      "utc": "2026-08-22T18:45:00Z",
+      "home": "Parma Calcio 1913",
+      "away": "Cagliari Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "559711",
+      "league": "Ligue 1",
+      "utc": "2026-08-22T18:45:00Z",
+      "home": "Le Mans FC",
+      "away": "Stade Brestois 29",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "559714",
+      "league": "Ligue 1",
+      "utc": "2026-08-22T18:45:00Z",
+      "home": "ES Troyes AC",
+      "away": "Paris FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "559716",
+      "league": "Ligue 1",
+      "utc": "2026-08-22T18:45:00Z",
+      "home": "OGC Nice",
+      "away": "FC Lorient",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "559718",
+      "league": "Ligue 1",
+      "utc": "2026-08-22T18:45:00Z",
+      "home": "Toulouse FC",
+      "away": "Olympique Lyonnais",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "558235",
+      "league": "Eredivisie",
+      "utc": "2026-08-22T19:00:00Z",
+      "home": "SC Heerenveen",
+      "away": "PEC Zwolle",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "564645",
+      "league": "La Liga",
+      "utc": "2026-08-22T19:30:00Z",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Real Madrid CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567275",
+      "league": "Primeira Liga",
+      "utc": "2026-08-22T19:30:00Z",
+      "home": "Sporting Clube de Portugal",
+      "away": "FC Alverca",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "558236",
+      "league": "Eredivisie",
+      "utc": "2026-08-23T10:15:00Z",
+      "home": "Go Ahead Eagles",
+      "away": "ADO Den Haag",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561776",
+      "league": "Championship",
+      "utc": "2026-08-23T11:00:00Z",
+      "home": "West Bromwich Albion FC",
+      "away": "Burnley FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "558237",
+      "league": "Eredivisie",
+      "utc": "2026-08-23T12:30:00Z",
+      "home": "PSV",
+      "away": "FC Groningen",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "560548",
+      "league": "Premier League",
+      "utc": "2026-08-23T13:00:00Z",
+      "home": "Manchester City FC",
+      "away": "AFC Bournemouth",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "560549",
+      "league": "Premier League",
+      "utc": "2026-08-23T13:00:00Z",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Aston Villa FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "559717",
+      "league": "Ligue 1",
+      "utc": "2026-08-23T13:00:00Z",
+      "home": "Angers SCO",
+      "away": "Lille OSC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "567278",
+      "league": "Primeira Liga",
+      "utc": "2026-08-23T14:30:00Z",
+      "home": "Vitória SC",
+      "away": "CD Nacional",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "558238",
+      "league": "Eredivisie",
+      "utc": "2026-08-23T14:45:00Z",
+      "home": "SC Cambuur-Leeuwarden",
+      "away": "Feyenoord Rotterdam",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 5
+      }
+    },
+    {
+      "id": "564646",
+      "league": "La Liga",
+      "utc": "2026-08-23T15:00:00Z",
+      "home": "Club Atlético de Madrid",
+      "away": "Villarreal CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "559719",
+      "league": "Ligue 1",
+      "utc": "2026-08-23T15:15:00Z",
+      "home": "Le Havre AC",
+      "away": "AS Monaco FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "560550",
+      "league": "Premier League",
+      "utc": "2026-08-23T15:30:00Z",
+      "home": "Newcastle United FC",
+      "away": "Liverpool FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "558635",
+      "league": "Serie A",
+      "utc": "2026-08-23T16:30:00Z",
+      "home": "Frosinone Calcio",
+      "away": "Juventus FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "558637",
+      "league": "Serie A",
+      "utc": "2026-08-23T16:30:00Z",
+      "home": "Venezia FC",
+      "away": "US Lecce",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "567281",
+      "league": "Primeira Liga",
+      "utc": "2026-08-23T17:00:00Z",
+      "home": "CD Santa Clara",
+      "away": "FC Famalicão",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564644",
+      "league": "La Liga",
+      "utc": "2026-08-23T17:30:00Z",
+      "home": "Getafe CF",
+      "away": "Real Racing Club de Santander",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "558633",
+      "league": "Serie A",
+      "utc": "2026-08-23T18:45:00Z",
+      "home": "Atalanta BC",
+      "away": "US Sassuolo Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "558634",
+      "league": "Serie A",
+      "utc": "2026-08-23T18:45:00Z",
+      "home": "Torino FC",
+      "away": "AC Milan",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "559713",
+      "league": "Ligue 1",
+      "utc": "2026-08-23T18:45:00Z",
+      "home": "Stade Rennais FC 1901",
+      "away": "Paris Saint-Germain FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "564642",
+      "league": "La Liga",
+      "utc": "2026-08-23T19:30:00Z",
+      "home": "Elche CF",
+      "away": "FC Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "567280",
+      "league": "Primeira Liga",
+      "utc": "2026-08-23T19:30:00Z",
+      "home": "FC Porto",
+      "away": "FC Arouca",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "558630",
+      "league": "Serie A",
+      "utc": "2026-08-24T16:30:00Z",
+      "home": "Bologna FC 1909",
+      "away": "SS Lazio",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564639",
+      "league": "La Liga",
+      "utc": "2026-08-24T17:30:00Z",
+      "home": "CA Osasuna",
+      "away": "Levante UD",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "558638",
+      "league": "Serie A",
+      "utc": "2026-08-24T18:45:00Z",
+      "home": "AS Roma",
+      "away": "ACF Fiorentina",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "560551",
+      "league": "Premier League",
+      "utc": "2026-08-24T19:00:00Z",
+      "home": "Fulham FC",
+      "away": "Chelsea FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "567277",
+      "league": "Primeira Liga",
+      "utc": "2026-08-24T19:15:00Z",
+      "home": "Gil Vicente FC",
+      "away": "Casa Pia AC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "564640",
+      "league": "La Liga",
+      "utc": "2026-08-24T19:30:00Z",
+      "home": "Málaga CF",
+      "away": "RC Deportivo La Coruña",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "564637",
+      "league": "La Liga",
+      "utc": "2026-08-25T19:00:00Z",
+      "home": "Valencia CF",
+      "away": "Real Betis Balompié",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564631",
+      "league": "La Liga",
+      "utc": "2026-08-26T19:00:00Z",
+      "home": "Real Madrid CF",
+      "away": "Real Sociedad de Fútbol",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "564636",
+      "league": "La Liga",
+      "utc": "2026-08-27T18:30:00Z",
+      "home": "RC Celta de Vigo",
+      "away": "CA Osasuna",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "564630",
+      "league": "La Liga",
+      "utc": "2026-08-27T19:00:00Z",
+      "home": "FC Barcelona",
+      "away": "Athletic Club",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "564654",
+      "league": "La Liga",
+      "utc": "2026-08-28T17:00:00Z",
+      "home": "Real Racing Club de Santander",
+      "away": "Elche CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "558241",
+      "league": "Eredivisie",
+      "utc": "2026-08-28T18:00:00Z",
+      "home": "FC Groningen",
+      "away": "Fortuna Sittard",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "565776",
+      "league": "Bundesliga",
+      "utc": "2026-08-28T18:30:00Z",
+      "home": "FC Bayern München",
+      "away": "VfB Stuttgart",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "558625",
+      "league": "Serie A",
+      "utc": "2026-08-28T18:45:00Z",
+      "home": "AC Milan",
+      "away": "Venezia FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "559702",
+      "league": "Ligue 1",
+      "utc": "2026-08-28T18:45:00Z",
+      "home": "Lille OSC",
+      "away": "Paris Saint-Germain FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "560555",
+      "league": "Premier League",
+      "utc": "2026-08-28T19:00:00Z",
+      "home": "Crystal Palace FC",
+      "away": "Manchester City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "561796",
+      "league": "Championship",
+      "utc": "2026-08-28T19:00:00Z",
+      "home": "Wrexham AFC",
+      "away": "Birmingham City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567291",
+      "league": "Primeira Liga",
+      "utc": "2026-08-28T19:15:00Z",
+      "home": "Rio Ave FC",
+      "away": "Sporting Clube de Portugal",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "564648",
+      "league": "La Liga",
+      "utc": "2026-08-28T19:30:00Z",
+      "home": "Deportivo Alavés",
+      "away": "Villarreal CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "560552",
+      "league": "Premier League",
+      "utc": "2026-08-29T11:30:00Z",
+      "home": "Liverpool FC",
+      "away": "Nottingham Forest FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561789",
+      "league": "Championship",
+      "utc": "2026-08-29T11:30:00Z",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Stoke City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "561791",
+      "league": "Championship",
+      "utc": "2026-08-29T11:30:00Z",
+      "home": "Derby County FC",
+      "away": "Swansea City AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "561794",
+      "league": "Championship",
+      "utc": "2026-08-29T11:30:00Z",
+      "home": "Middlesbrough FC",
+      "away": "West Bromwich Albion FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "565777",
+      "league": "Bundesliga",
+      "utc": "2026-08-29T13:30:00Z",
+      "home": "RB Leipzig",
+      "away": "Borussia Mönchengladbach",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "565778",
+      "league": "Bundesliga",
+      "utc": "2026-08-29T13:30:00Z",
+      "home": "1. FSV Mainz 05",
+      "away": "SC Paderborn 07",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "565779",
+      "league": "Bundesliga",
+      "utc": "2026-08-29T13:30:00Z",
+      "home": "1. FC Union Berlin",
+      "away": "Eintracht Frankfurt",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "565780",
+      "league": "Bundesliga",
+      "utc": "2026-08-29T13:30:00Z",
+      "home": "SV 07 Elversberg",
+      "away": "Bayer 04 Leverkusen",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "565783",
+      "league": "Bundesliga",
+      "utc": "2026-08-29T13:30:00Z",
+      "home": "1. FC Köln",
+      "away": "TSG 1899 Hoffenheim",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "560560",
+      "league": "Premier League",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "AFC Bournemouth",
+      "away": "Everton FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "560561",
+      "league": "Premier League",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Coventry City FC",
+      "away": "Hull City AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561785",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Norwich City FC",
+      "away": "Burnley FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "561786",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Bolton Wanderers FC",
+      "away": "Lincoln City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561787",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Bristol City FC",
+      "away": "Portsmouth FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "561788",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Southampton FC",
+      "away": "Millwall FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "561790",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Charlton Athletic FC",
+      "away": "Preston North End FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "561792",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Blackburn Rovers FC",
+      "away": "Queens Park Rangers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561793",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Cardiff City FC",
+      "away": "Sheffield United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561795",
+      "league": "Championship",
+      "utc": "2026-08-29T14:00:00Z",
+      "home": "Watford FC",
+      "away": "West Ham United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558242",
+      "league": "Eredivisie",
+      "utc": "2026-08-29T14:30:00Z",
+      "home": "SBV Excelsior",
+      "away": "Sparta Rotterdam",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "567285",
+      "league": "Primeira Liga",
+      "utc": "2026-08-29T14:30:00Z",
+      "home": "FC Alverca",
+      "away": "CD Santa Clara",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "567287",
+      "league": "Primeira Liga",
+      "utc": "2026-08-29T14:30:00Z",
+      "home": "FC Arouca",
+      "away": "CS Marítimo",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "564655",
+      "league": "La Liga",
+      "utc": "2026-08-29T15:00:00Z",
+      "home": "Levante UD",
+      "away": "Real Betis Balompié",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "559704",
+      "league": "Ligue 1",
+      "utc": "2026-08-29T15:15:00Z",
+      "home": "RC Strasbourg Alsace",
+      "away": "Racing Club de Lens",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "560558",
+      "league": "Premier League",
+      "utc": "2026-08-29T16:30:00Z",
+      "home": "Tottenham Hotspur FC",
+      "away": "Newcastle United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "565781",
+      "league": "Bundesliga",
+      "utc": "2026-08-29T16:30:00Z",
+      "home": "Borussia Dortmund",
+      "away": "Hamburger SV",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "558620",
+      "league": "Serie A",
+      "utc": "2026-08-29T16:30:00Z",
+      "home": "US Sassuolo Calcio",
+      "away": "Torino FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "558624",
+      "league": "Serie A",
+      "utc": "2026-08-29T16:30:00Z",
+      "home": "AC Monza",
+      "away": "Udinese Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "558627",
+      "league": "Serie A",
+      "utc": "2026-08-29T16:30:00Z",
+      "home": "ACF Fiorentina",
+      "away": "Frosinone Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "558243",
+      "league": "Eredivisie",
+      "utc": "2026-08-29T16:45:00Z",
+      "home": "AZ",
+      "away": "Go Ahead Eagles",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "564653",
+      "league": "La Liga",
+      "utc": "2026-08-29T17:00:00Z",
+      "home": "Real Sociedad de Fútbol",
+      "away": "RCD Espanyol de Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "567289",
+      "league": "Primeira Liga",
+      "utc": "2026-08-29T17:00:00Z",
+      "home": "Académico de Viseu FC",
+      "away": "FC Porto",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "558619",
+      "league": "Serie A",
+      "utc": "2026-08-29T18:45:00Z",
+      "home": "Juventus FC",
+      "away": "Parma Calcio 1913",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "559705",
+      "league": "Ligue 1",
+      "utc": "2026-08-29T18:45:00Z",
+      "home": "FC Lorient",
+      "away": "ES Troyes AC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "559706",
+      "league": "Ligue 1",
+      "utc": "2026-08-29T18:45:00Z",
+      "home": "Olympique Lyonnais",
+      "away": "Le Havre AC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "559708",
+      "league": "Ligue 1",
+      "utc": "2026-08-29T18:45:00Z",
+      "home": "AJ Auxerre",
+      "away": "Angers SCO",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "559710",
+      "league": "Ligue 1",
+      "utc": "2026-08-29T18:45:00Z",
+      "home": "Stade Brestois 29",
+      "away": "Toulouse FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "558244",
+      "league": "Eredivisie",
+      "utc": "2026-08-29T19:00:00Z",
+      "home": "PEC Zwolle",
+      "away": "NEC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "564649",
+      "league": "La Liga",
+      "utc": "2026-08-29T19:30:00Z",
+      "home": "Sevilla FC",
+      "away": "Club Atlético de Madrid",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "558245",
+      "league": "Eredivisie",
+      "utc": "2026-08-30T10:15:00Z",
+      "home": "FC Utrecht",
+      "away": "PSV",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 6
+      }
+    },
+    {
+      "id": "558246",
+      "league": "Eredivisie",
+      "utc": "2026-08-30T12:30:00Z",
+      "home": "Willem II Tilburg",
+      "away": "SC Heerenveen",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "558247",
+      "league": "Eredivisie",
+      "utc": "2026-08-30T12:30:00Z",
+      "home": "Feyenoord Rotterdam",
+      "away": "ADO Den Haag",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "560554",
+      "league": "Premier League",
+      "utc": "2026-08-30T13:00:00Z",
+      "home": "Sunderland AFC",
+      "away": "Fulham FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "560556",
+      "league": "Premier League",
+      "utc": "2026-08-30T13:00:00Z",
+      "home": "Chelsea FC",
+      "away": "Brighton & Hove Albion FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "560559",
+      "league": "Premier League",
+      "utc": "2026-08-30T13:00:00Z",
+      "home": "Leeds United FC",
+      "away": "Brentford FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "559707",
+      "league": "Ligue 1",
+      "utc": "2026-08-30T13:00:00Z",
+      "home": "Paris FC",
+      "away": "OGC Nice",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "565784",
+      "league": "Bundesliga",
+      "utc": "2026-08-30T13:30:00Z",
+      "home": "SC Freiburg",
+      "away": "SV Werder Bremen",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "567286",
+      "league": "Primeira Liga",
+      "utc": "2026-08-30T14:30:00Z",
+      "home": "CD Nacional",
+      "away": "CF Estrela da Amadora",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "558248",
+      "league": "Eredivisie",
+      "utc": "2026-08-30T14:45:00Z",
+      "home": "Telstar 1963",
+      "away": "AFC Ajax",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "564656",
+      "league": "La Liga",
+      "utc": "2026-08-30T15:00:00Z",
+      "home": "Real Madrid CF",
+      "away": "Málaga CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "559709",
+      "league": "Ligue 1",
+      "utc": "2026-08-30T15:15:00Z",
+      "home": "Stade Rennais FC 1901",
+      "away": "Le Mans FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "560553",
+      "league": "Premier League",
+      "utc": "2026-08-30T15:30:00Z",
+      "home": "Manchester United FC",
+      "away": "Ipswich Town FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "565782",
+      "league": "Bundesliga",
+      "utc": "2026-08-30T15:30:00Z",
+      "home": "FC Augsburg",
+      "away": "FC Schalke 04",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "558626",
+      "league": "Serie A",
+      "utc": "2026-08-30T16:30:00Z",
+      "home": "SSC Napoli",
+      "away": "Como 1907",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567290",
+      "league": "Primeira Liga",
+      "utc": "2026-08-30T17:00:00Z",
+      "home": "Casa Pia AC",
+      "away": "Moreirense FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564651",
+      "league": "La Liga",
+      "utc": "2026-08-30T17:30:00Z",
+      "home": "RC Deportivo La Coruña",
+      "away": "Valencia CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "558249",
+      "league": "Eredivisie",
+      "utc": "2026-08-30T18:00:00Z",
+      "home": "SC Cambuur-Leeuwarden",
+      "away": "FC Twente '65",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "558622",
+      "league": "Serie A",
+      "utc": "2026-08-30T18:45:00Z",
+      "home": "SS Lazio",
+      "away": "Genoa CFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "558623",
+      "league": "Serie A",
+      "utc": "2026-08-30T18:45:00Z",
+      "home": "Cagliari Calcio",
+      "away": "FC Internazionale Milano",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "559703",
+      "league": "Ligue 1",
+      "utc": "2026-08-30T18:45:00Z",
+      "home": "AS Monaco FC",
+      "away": "Olympique de Marseille",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "564652",
+      "league": "La Liga",
+      "utc": "2026-08-30T19:30:00Z",
+      "home": "RC Celta de Vigo",
+      "away": "Athletic Club",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "567284",
+      "league": "Primeira Liga",
+      "utc": "2026-08-30T19:30:00Z",
+      "home": "FC Famalicão",
+      "away": "Gil Vicente FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "558621",
+      "league": "Serie A",
+      "utc": "2026-08-31T16:30:00Z",
+      "home": "US Lecce",
+      "away": "AS Roma",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "564657",
+      "league": "La Liga",
+      "utc": "2026-08-31T17:30:00Z",
+      "home": "CA Osasuna",
+      "away": "Getafe CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "558628",
+      "league": "Serie A",
+      "utc": "2026-08-31T18:45:00Z",
+      "home": "Atalanta BC",
+      "away": "Bologna FC 1909",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "560557",
+      "league": "Premier League",
+      "utc": "2026-08-31T19:00:00Z",
+      "home": "Aston Villa FC",
+      "away": "Arsenal FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "567288",
+      "league": "Primeira Liga",
+      "utc": "2026-08-31T19:15:00Z",
+      "home": "Sport Lisboa e Benfica",
+      "away": "GD Estoril Praia",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "567292",
+      "league": "Primeira Liga",
+      "utc": "2026-08-31T19:15:00Z",
+      "home": "Sporting Clube de Braga",
+      "away": "Vitória SC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564650",
+      "league": "La Liga",
+      "utc": "2026-08-31T19:30:00Z",
+      "home": "FC Barcelona",
+      "away": "Rayo Vallecano de Madrid",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "561798",
+      "league": "Championship",
+      "utc": "2026-09-01T18:45:00Z",
+      "home": "Preston North End FC",
+      "away": "Bristol City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "561799",
+      "league": "Championship",
+      "utc": "2026-09-01T18:45:00Z",
+      "home": "West Ham United FC",
+      "away": "Wolverhampton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "561800",
+      "league": "Championship",
+      "utc": "2026-09-01T18:45:00Z",
+      "home": "Lincoln City FC",
+      "away": "Blackburn Rovers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "561801",
+      "league": "Championship",
+      "utc": "2026-09-01T18:45:00Z",
+      "home": "Sheffield United FC",
+      "away": "Bolton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "561802",
+      "league": "Championship",
+      "utc": "2026-09-01T18:45:00Z",
+      "home": "Portsmouth FC",
+      "away": "Derby County FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "561804",
+      "league": "Championship",
+      "utc": "2026-09-01T18:45:00Z",
+      "home": "Swansea City AFC",
+      "away": "Watford FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "561797",
+      "league": "Championship",
+      "utc": "2026-09-01T19:00:00Z",
+      "home": "Stoke City FC",
+      "away": "Norwich City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "561803",
+      "league": "Championship",
+      "utc": "2026-09-01T19:00:00Z",
+      "home": "Birmingham City FC",
+      "away": "Southampton FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "561806",
+      "league": "Championship",
+      "utc": "2026-09-02T18:45:00Z",
+      "home": "Millwall FC",
+      "away": "Wrexham AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "561807",
+      "league": "Championship",
+      "utc": "2026-09-02T18:45:00Z",
+      "home": "Queens Park Rangers FC",
+      "away": "Cardiff City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "561808",
+      "league": "Championship",
+      "utc": "2026-09-02T18:45:00Z",
+      "home": "West Bromwich Albion FC",
+      "away": "Charlton Athletic FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "561805",
+      "league": "Championship",
+      "utc": "2026-09-02T19:00:00Z",
+      "home": "Burnley FC",
+      "away": "Middlesbrough FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "559696",
+      "league": "Ligue 1",
+      "utc": "2026-09-03T18:45:00Z",
+      "home": "Toulouse FC",
+      "away": "Lille OSC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564682",
+      "league": "La Liga",
+      "utc": "2026-09-03T19:00:00Z",
+      "home": "Real Sociedad de Fútbol",
+      "away": "RC Celta de Vigo",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "559699",
+      "league": "Ligue 1",
+      "utc": "2026-09-04T17:00:00Z",
+      "home": "Olympique Lyonnais",
+      "away": "AJ Auxerre",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "558250",
+      "league": "Eredivisie",
+      "utc": "2026-09-04T18:00:00Z",
+      "home": "Sparta Rotterdam",
+      "away": "PEC Zwolle",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "565791",
+      "league": "Bundesliga",
+      "utc": "2026-09-04T18:30:00Z",
+      "home": "VfB Stuttgart",
+      "away": "1. FC Köln",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "558609",
+      "league": "Serie A",
+      "utc": "2026-09-04T18:45:00Z",
+      "home": "Genoa CFC",
+      "away": "Como 1907",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "560566",
+      "league": "Premier League",
+      "utc": "2026-09-04T19:00:00Z",
+      "home": "Ipswich Town FC",
+      "away": "Liverpool FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "564667",
+      "league": "La Liga",
+      "utc": "2026-09-04T19:00:00Z",
+      "home": "Real Betis Balompié",
+      "away": "Real Madrid CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "559697",
+      "league": "Ligue 1",
+      "utc": "2026-09-04T19:05:00Z",
+      "home": "Paris Saint-Germain FC",
+      "away": "AS Monaco FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567299",
+      "league": "Primeira Liga",
+      "utc": "2026-09-04T19:15:00Z",
+      "home": "FC Porto",
+      "away": "Moreirense FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "560571",
+      "league": "Premier League",
+      "utc": "2026-09-05T11:30:00Z",
+      "home": "Newcastle United FC",
+      "away": "AFC Bournemouth",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561813",
+      "league": "Championship",
+      "utc": "2026-09-05T11:30:00Z",
+      "home": "Preston North End FC",
+      "away": "Blackburn Rovers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "561815",
+      "league": "Championship",
+      "utc": "2026-09-05T11:30:00Z",
+      "home": "Stoke City FC",
+      "away": "Charlton Athletic FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "561820",
+      "league": "Championship",
+      "utc": "2026-09-05T11:30:00Z",
+      "home": "Lincoln City FC",
+      "away": "Southampton FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558616",
+      "league": "Serie A",
+      "utc": "2026-09-05T13:00:00Z",
+      "home": "ACF Fiorentina",
+      "away": "Torino FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "565785",
+      "league": "Bundesliga",
+      "utc": "2026-09-05T13:30:00Z",
+      "home": "SV Werder Bremen",
+      "away": "RB Leipzig",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "565787",
+      "league": "Bundesliga",
+      "utc": "2026-09-05T13:30:00Z",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Borussia Dortmund",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "565790",
+      "league": "Bundesliga",
+      "utc": "2026-09-05T13:30:00Z",
+      "home": "Bayer 04 Leverkusen",
+      "away": "1. FC Union Berlin",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "565792",
+      "league": "Bundesliga",
+      "utc": "2026-09-05T13:30:00Z",
+      "home": "Borussia Mönchengladbach",
+      "away": "SV 07 Elversberg",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 4
+      }
+    },
+    {
+      "id": "565793",
+      "league": "Bundesliga",
+      "utc": "2026-09-05T13:30:00Z",
+      "home": "SC Paderborn 07",
+      "away": "SC Freiburg",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "560562",
+      "league": "Premier League",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Nottingham Forest FC",
+      "away": "Tottenham Hotspur FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "560563",
+      "league": "Premier League",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Manchester City FC",
+      "away": "Coventry City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "560564",
+      "league": "Premier League",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Leeds United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "560565",
+      "league": "Premier League",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Brentford FC",
+      "away": "Sunderland AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "560568",
+      "league": "Premier League",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Fulham FC",
+      "away": "Crystal Palace FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "561809",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Queens Park Rangers FC",
+      "away": "Middlesbrough FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561810",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Sheffield United FC",
+      "away": "Norwich City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "561812",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Portsmouth FC",
+      "away": "Cardiff City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "561814",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "West Bromwich Albion FC",
+      "away": "Watford FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "561816",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "West Ham United FC",
+      "away": "Derby County FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "561817",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Burnley FC",
+      "away": "Bristol City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561818",
+      "league": "Championship",
+      "utc": "2026-09-05T14:00:00Z",
+      "home": "Millwall FC",
+      "away": "Bolton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "564663",
+      "league": "La Liga",
+      "utc": "2026-09-05T14:15:00Z",
+      "home": "Athletic Club",
+      "away": "Club Atlético de Madrid",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "558251",
+      "league": "Eredivisie",
+      "utc": "2026-09-05T14:30:00Z",
+      "home": "NEC",
+      "away": "Feyenoord Rotterdam",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "567297",
+      "league": "Primeira Liga",
+      "utc": "2026-09-05T14:30:00Z",
+      "home": "CF Estrela da Amadora",
+      "away": "FC Famalicão",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "559695",
+      "league": "Ligue 1",
+      "utc": "2026-09-05T15:15:00Z",
+      "home": "Racing Club de Lens",
+      "away": "FC Lorient",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "558614",
+      "league": "Serie A",
+      "utc": "2026-09-05T16:00:00Z",
+      "home": "FC Internazionale Milano",
+      "away": "SSC Napoli",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "560569",
+      "league": "Premier League",
+      "utc": "2026-09-05T16:30:00Z",
+      "home": "Hull City AFC",
+      "away": "Aston Villa FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "564660",
+      "league": "La Liga",
+      "utc": "2026-09-05T16:30:00Z",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Real Racing Club de Santander",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "565789",
+      "league": "Bundesliga",
+      "utc": "2026-09-05T16:30:00Z",
+      "home": "FC Schalke 04",
+      "away": "FC Bayern München",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "567296",
+      "league": "Primeira Liga",
+      "utc": "2026-09-05T17:00:00Z",
+      "home": "FC Alverca",
+      "away": "Sporting Clube de Braga",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567293",
+      "league": "Primeira Liga",
+      "utc": "2026-09-05T17:00:00Z",
+      "home": "CS Marítimo",
+      "away": "Sport Lisboa e Benfica",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "558253",
+      "league": "Eredivisie",
+      "utc": "2026-09-05T18:00:00Z",
+      "home": "AFC Ajax",
+      "away": "PSV",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "558611",
+      "league": "Serie A",
+      "utc": "2026-09-05T18:45:00Z",
+      "home": "AS Roma",
+      "away": "Atalanta BC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "559693",
+      "league": "Ligue 1",
+      "utc": "2026-09-05T18:45:00Z",
+      "home": "Le Havre AC",
+      "away": "Stade Brestois 29",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "559701",
+      "league": "Ligue 1",
+      "utc": "2026-09-05T18:45:00Z",
+      "home": "OGC Nice",
+      "away": "Le Mans FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "564662",
+      "league": "La Liga",
+      "utc": "2026-09-05T19:00:00Z",
+      "home": "Villarreal CF",
+      "away": "RC Deportivo La Coruña",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "558254",
+      "league": "Eredivisie",
+      "utc": "2026-09-05T19:00:00Z",
+      "home": "Willem II Tilburg",
+      "away": "SBV Excelsior",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "561811",
+      "league": "Championship",
+      "utc": "2026-09-05T19:00:00Z",
+      "home": "Swansea City AFC",
+      "away": "Wrexham AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "567298",
+      "league": "Primeira Liga",
+      "utc": "2026-09-05T19:30:00Z",
+      "home": "Sporting Clube de Portugal",
+      "away": "CD Nacional",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "558255",
+      "league": "Eredivisie",
+      "utc": "2026-09-06T10:15:00Z",
+      "home": "FC Groningen",
+      "away": "FC Twente '65",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561819",
+      "league": "Championship",
+      "utc": "2026-09-06T11:00:00Z",
+      "home": "Birmingham City FC",
+      "away": "Wolverhampton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "558256",
+      "league": "Eredivisie",
+      "utc": "2026-09-06T12:30:00Z",
+      "home": "SC Heerenveen",
+      "away": "AZ",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "558257",
+      "league": "Eredivisie",
+      "utc": "2026-09-06T12:30:00Z",
+      "home": "Telstar 1963",
+      "away": "SC Cambuur-Leeuwarden",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "560567",
+      "league": "Premier League",
+      "utc": "2026-09-06T13:00:00Z",
+      "home": "Everton FC",
+      "away": "Manchester United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "558612",
+      "league": "Serie A",
+      "utc": "2026-09-06T13:00:00Z",
+      "home": "Parma Calcio 1913",
+      "away": "AC Monza",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558615",
+      "league": "Serie A",
+      "utc": "2026-09-06T13:00:00Z",
+      "home": "Frosinone Calcio",
+      "away": "Venezia FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "559700",
+      "league": "Ligue 1",
+      "utc": "2026-09-06T13:00:00Z",
+      "home": "ES Troyes AC",
+      "away": "RC Strasbourg Alsace",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 6
+      }
+    },
+    {
+      "id": "565788",
+      "league": "Bundesliga",
+      "utc": "2026-09-06T13:30:00Z",
+      "home": "Hamburger SV",
+      "away": "1. FSV Mainz 05",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "564659",
+      "league": "La Liga",
+      "utc": "2026-09-06T14:15:00Z",
+      "home": "Valencia CF",
+      "away": "FC Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "567300",
+      "league": "Primeira Liga",
+      "utc": "2026-09-06T14:30:00Z",
+      "home": "CD Santa Clara",
+      "away": "Rio Ave FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "558258",
+      "league": "Eredivisie",
+      "utc": "2026-09-06T14:45:00Z",
+      "home": "ADO Den Haag",
+      "away": "Fortuna Sittard",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "559698",
+      "league": "Ligue 1",
+      "utc": "2026-09-06T15:15:00Z",
+      "home": "Angers SCO",
+      "away": "Stade Rennais FC 1901",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "560570",
+      "league": "Premier League",
+      "utc": "2026-09-06T15:30:00Z",
+      "home": "Arsenal FC",
+      "away": "Chelsea FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "565786",
+      "league": "Bundesliga",
+      "utc": "2026-09-06T15:30:00Z",
+      "home": "Eintracht Frankfurt",
+      "away": "FC Augsburg",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "558613",
+      "league": "Serie A",
+      "utc": "2026-09-06T16:00:00Z",
+      "home": "Bologna FC 1909",
+      "away": "US Sassuolo Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "564664",
+      "league": "La Liga",
+      "utc": "2026-09-06T16:30:00Z",
+      "home": "Deportivo Alavés",
+      "away": "CA Osasuna",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "564666",
+      "league": "La Liga",
+      "utc": "2026-09-06T16:30:00Z",
+      "home": "Málaga CF",
+      "away": "Levante UD",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "567294",
+      "league": "Primeira Liga",
+      "utc": "2026-09-06T17:00:00Z",
+      "home": "Vitória SC",
+      "away": "Casa Pia AC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "558618",
+      "league": "Serie A",
+      "utc": "2026-09-06T18:45:00Z",
+      "home": "Juventus FC",
+      "away": "AC Milan",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "559694",
+      "league": "Ligue 1",
+      "utc": "2026-09-06T18:45:00Z",
+      "home": "Olympique de Marseille",
+      "away": "Paris FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "564661",
+      "league": "La Liga",
+      "utc": "2026-09-06T19:00:00Z",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Sevilla FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "567301",
+      "league": "Primeira Liga",
+      "utc": "2026-09-06T19:30:00Z",
+      "home": "Gil Vicente FC",
+      "away": "Académico de Viseu FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "558610",
+      "league": "Serie A",
+      "utc": "2026-09-07T16:30:00Z",
+      "home": "Cagliari Calcio",
+      "away": "US Lecce",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564665",
+      "league": "La Liga",
+      "utc": "2026-09-07T17:00:00Z",
+      "home": "Getafe CF",
+      "away": "RC Celta de Vigo",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558617",
+      "league": "Serie A",
+      "utc": "2026-09-07T18:45:00Z",
+      "home": "Udinese Calcio",
+      "away": "SS Lazio",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567295",
+      "league": "Primeira Liga",
+      "utc": "2026-09-07T19:15:00Z",
+      "home": "GD Estoril Praia",
+      "away": "FC Arouca",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "564658",
+      "league": "La Liga",
+      "utc": "2026-09-07T19:30:00Z",
+      "home": "Elche CF",
+      "away": "Real Sociedad de Fútbol",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "558252",
+      "league": "Eredivisie",
+      "utc": "2026-09-08T12:00:00Z",
+      "home": "FC Utrecht",
+      "away": "Go Ahead Eagles",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "558233",
+      "league": "Eredivisie",
+      "utc": "2026-09-08T16:45:00Z",
+      "home": "NEC",
+      "away": "SBV Excelsior",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "575323",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-08T16:45:00Z",
+      "home": "Club Brugge KV",
+      "away": "Aston Villa FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "575324",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-08T16:45:00Z",
+      "home": "PAE AEK",
+      "away": "LASK Linz",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "561821",
+      "league": "Championship",
+      "utc": "2026-09-08T18:45:00Z",
+      "home": "Blackburn Rovers FC",
+      "away": "Sheffield United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561822",
+      "league": "Championship",
+      "utc": "2026-09-08T18:45:00Z",
+      "home": "Southampton FC",
+      "away": "Swansea City AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561823",
+      "league": "Championship",
+      "utc": "2026-09-08T18:45:00Z",
+      "home": "Watford FC",
+      "away": "Preston North End FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "561824",
+      "league": "Championship",
+      "utc": "2026-09-08T18:45:00Z",
+      "home": "Cardiff City FC",
+      "away": "Stoke City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "561830",
+      "league": "Championship",
+      "utc": "2026-09-08T18:45:00Z",
+      "home": "Wrexham AFC",
+      "away": "Burnley FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "575325",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-08T19:00:00Z",
+      "home": "Real Madrid CF",
+      "away": "FC Internazionale Milano",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "575326",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-08T19:00:00Z",
+      "home": "FC Porto",
+      "away": "Manchester City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "575327",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-08T19:00:00Z",
+      "home": "Borussia Dortmund",
+      "away": "Villarreal CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "575328",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-08T19:00:00Z",
+      "home": "Lille OSC",
+      "away": "Real Betis Balompié",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "561827",
+      "league": "Championship",
+      "utc": "2026-09-08T19:00:00Z",
+      "home": "Bolton Wanderers FC",
+      "away": "West Ham United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "558239",
+      "league": "Eredivisie",
+      "utc": "2026-09-09T16:45:00Z",
+      "home": "FC Twente '65",
+      "away": "Telstar 1963",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "575329",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-09T16:45:00Z",
+      "home": "FC Barcelona",
+      "away": "Feyenoord Rotterdam",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "575330",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-09T16:45:00Z",
+      "home": "VfB Stuttgart",
+      "away": "Viking FK",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561829",
+      "league": "Championship",
+      "utc": "2026-09-09T18:45:00Z",
+      "home": "Derby County FC",
+      "away": "West Bromwich Albion FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561832",
+      "league": "Championship",
+      "utc": "2026-09-09T18:45:00Z",
+      "home": "Norwich City FC",
+      "away": "Birmingham City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "575331",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-09T19:00:00Z",
+      "home": "Liverpool FC",
+      "away": "Club Atlético de Madrid",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "575332",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-09T19:00:00Z",
+      "home": "Paris Saint-Germain FC",
+      "away": "ŠK Slovan Bratislava",
+      "status": "FINISHED",
+      "score": {
+        "home": 6,
+        "away": 1
+      }
+    },
+    {
+      "id": "575333",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-09T19:00:00Z",
+      "home": "SSC Napoli",
+      "away": "Arsenal FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "575334",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-09T19:00:00Z",
+      "home": "Sporting Clube de Portugal",
+      "away": "Galatasaray SK",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561831",
+      "league": "Championship",
+      "utc": "2026-09-09T19:00:00Z",
+      "home": "Charlton Athletic FC",
+      "away": "Queens Park Rangers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "567282",
+      "league": "Primeira Liga",
+      "utc": "2026-09-09T19:45:00Z",
+      "home": "Moreirense FC",
+      "away": "Sport Lisboa e Benfica",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "575335",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-10T16:45:00Z",
+      "home": "Fenerbahçe SK",
+      "away": "AS Roma",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "575336",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-10T16:45:00Z",
+      "home": "PSV",
+      "away": "FK Shakhtar Donetsk",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "575337",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-10T19:00:00Z",
+      "home": "FC Bayern München",
+      "away": "FK Bodø/Glimt",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "575338",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-10T19:00:00Z",
+      "home": "Manchester United FC",
+      "away": "Sabah FK",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "575339",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-10T19:00:00Z",
+      "home": "Como 1907",
+      "away": "RB Leipzig",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "575340",
+      "league": "Liga Mistrzów",
+      "utc": "2026-09-10T19:00:00Z",
+      "home": "SK Slavia Praha",
+      "away": "Racing Club de Lens",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "567276",
+      "league": "Primeira Liga",
+      "utc": "2026-09-10T19:15:00Z",
+      "home": "CF Estrela da Amadora",
+      "away": "Sporting Clube de Braga",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "558899",
+      "league": "Eredivisie",
+      "utc": "2026-09-11T18:00:00Z",
+      "home": "AZ",
+      "away": "Willem II Tilburg",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "565797",
+      "league": "Bundesliga",
+      "utc": "2026-09-11T18:30:00Z",
+      "home": "1. FC Union Berlin",
+      "away": "FC Schalke 04",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "558606",
+      "league": "Serie A",
+      "utc": "2026-09-11T18:45:00Z",
+      "home": "Venezia FC",
+      "away": "ACF Fiorentina",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "559689",
+      "league": "Ligue 1",
+      "utc": "2026-09-11T18:45:00Z",
+      "home": "Stade Rennais FC 1901",
+      "away": "Olympique de Marseille",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564669",
+      "league": "La Liga",
+      "utc": "2026-09-11T19:00:00Z",
+      "home": "Sevilla FC",
+      "away": "Valencia CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "561842",
+      "league": "Championship",
+      "utc": "2026-09-11T19:00:00Z",
+      "home": "West Ham United FC",
+      "away": "Wrexham AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "id": "561835",
+      "league": "Championship",
+      "utc": "2026-09-12T11:30:00Z",
+      "home": "Derby County FC",
+      "away": "Birmingham City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561837",
+      "league": "Championship",
+      "utc": "2026-09-12T11:30:00Z",
+      "home": "Bolton Wanderers FC",
+      "away": "Cardiff City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "561839",
+      "league": "Championship",
+      "utc": "2026-09-12T11:30:00Z",
+      "home": "West Bromwich Albion FC",
+      "away": "Queens Park Rangers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "564670",
+      "league": "La Liga",
+      "utc": "2026-09-12T12:00:00Z",
+      "home": "Real Racing Club de Santander",
+      "away": "Deportivo Alavés",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "558604",
+      "league": "Serie A",
+      "utc": "2026-09-12T13:00:00Z",
+      "home": "Genoa CFC",
+      "away": "Frosinone Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "565794",
+      "league": "Bundesliga",
+      "utc": "2026-09-12T13:30:00Z",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "VfB Stuttgart",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "565795",
+      "league": "Bundesliga",
+      "utc": "2026-09-12T13:30:00Z",
+      "home": "Borussia Dortmund",
+      "away": "SC Paderborn 07",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "565796",
+      "league": "Bundesliga",
+      "utc": "2026-09-12T13:30:00Z",
+      "home": "FC Augsburg",
+      "away": "Bayer 04 Leverkusen",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "565801",
+      "league": "Bundesliga",
+      "utc": "2026-09-12T13:30:00Z",
+      "home": "1. FSV Mainz 05",
+      "away": "Eintracht Frankfurt",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "565802",
+      "league": "Bundesliga",
+      "utc": "2026-09-12T13:30:00Z",
+      "home": "SC Freiburg",
+      "away": "Borussia Mönchengladbach",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "560572",
+      "league": "Premier League",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Crystal Palace FC",
+      "away": "Ipswich Town FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "560573",
+      "league": "Premier League",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Liverpool FC",
+      "away": "Fulham FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "560574",
+      "league": "Premier League",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Aston Villa FC",
+      "away": "Nottingham Forest FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "560576",
+      "league": "Premier League",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "AFC Bournemouth",
+      "away": "Brentford FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "560581",
+      "league": "Premier League",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Chelsea FC",
+      "away": "Hull City AFC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561833",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Southampton FC",
+      "away": "Bristol City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "561834",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Preston North End FC",
+      "away": "Lincoln City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561836",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Blackburn Rovers FC",
+      "away": "Millwall FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561838",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Charlton Athletic FC",
+      "away": "Portsmouth FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "561840",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Watford FC",
+      "away": "Stoke City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561841",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Swansea City AFC",
+      "away": "Burnley FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "561843",
+      "league": "Championship",
+      "utc": "2026-09-12T14:00:00Z",
+      "home": "Middlesbrough FC",
+      "away": "Norwich City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "564673",
+      "league": "La Liga",
+      "utc": "2026-09-12T14:15:00Z",
+      "home": "CA Osasuna",
+      "away": "RCD Espanyol de Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "558898",
+      "league": "Eredivisie",
+      "utc": "2026-09-12T14:30:00Z",
+      "home": "FC Twente '65",
+      "away": "ADO Den Haag",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "567306",
+      "league": "Primeira Liga",
+      "utc": "2026-09-12T14:30:00Z",
+      "home": "CD Nacional",
+      "away": "FC Alverca",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "559687",
+      "league": "Ligue 1",
+      "utc": "2026-09-12T15:15:00Z",
+      "home": "RC Strasbourg Alsace",
+      "away": "AS Monaco FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558600",
+      "league": "Serie A",
+      "utc": "2026-09-12T16:00:00Z",
+      "home": "SS Lazio",
+      "away": "AC Milan",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "560575",
+      "league": "Premier League",
+      "utc": "2026-09-12T16:30:00Z",
+      "home": "Tottenham Hotspur FC",
+      "away": "Everton FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "564676",
+      "league": "La Liga",
+      "utc": "2026-09-12T16:30:00Z",
+      "home": "Athletic Club",
+      "away": "Elche CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "565798",
+      "league": "Bundesliga",
+      "utc": "2026-09-12T16:30:00Z",
+      "home": "1. FC Köln",
+      "away": "SV Werder Bremen",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558897",
+      "league": "Eredivisie",
+      "utc": "2026-09-12T16:45:00Z",
+      "home": "Go Ahead Eagles",
+      "away": "FC Groningen",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "567307",
+      "league": "Primeira Liga",
+      "utc": "2026-09-12T17:00:00Z",
+      "home": "Casa Pia AC",
+      "away": "FC Porto",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "558896",
+      "league": "Eredivisie",
+      "utc": "2026-09-12T18:00:00Z",
+      "home": "Fortuna Sittard",
+      "away": "AFC Ajax",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 5
+      }
+    },
+    {
+      "id": "558607",
+      "league": "Serie A",
+      "utc": "2026-09-12T18:45:00Z",
+      "home": "Atalanta BC",
+      "away": "Cagliari Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "559684",
+      "league": "Ligue 1",
+      "utc": "2026-09-12T18:45:00Z",
+      "home": "FC Lorient",
+      "away": "Toulouse FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "559688",
+      "league": "Ligue 1",
+      "utc": "2026-09-12T18:45:00Z",
+      "home": "AJ Auxerre",
+      "away": "OGC Nice",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "559690",
+      "league": "Ligue 1",
+      "utc": "2026-09-12T18:45:00Z",
+      "home": "Le Havre AC",
+      "away": "Angers SCO",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "559692",
+      "league": "Ligue 1",
+      "utc": "2026-09-12T18:45:00Z",
+      "home": "Paris FC",
+      "away": "Olympique Lyonnais",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "560577",
+      "league": "Premier League",
+      "utc": "2026-09-12T19:00:00Z",
+      "home": "Sunderland AFC",
+      "away": "Arsenal FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "564677",
+      "league": "La Liga",
+      "utc": "2026-09-12T19:00:00Z",
+      "home": "Real Madrid CF",
+      "away": "Rayo Vallecano de Madrid",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "558892",
+      "league": "Eredivisie",
+      "utc": "2026-09-12T19:00:00Z",
+      "home": "SC Cambuur-Leeuwarden",
+      "away": "NEC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "567309",
+      "league": "Primeira Liga",
+      "utc": "2026-09-12T19:30:00Z",
+      "home": "Académico de Viseu FC",
+      "away": "Vitória SC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "558894",
+      "league": "Eredivisie",
+      "utc": "2026-09-13T10:15:00Z",
+      "home": "SBV Excelsior",
+      "away": "FC Utrecht",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "561844",
+      "league": "Championship",
+      "utc": "2026-09-13T11:00:00Z",
+      "home": "Sheffield United FC",
+      "away": "Wolverhampton Wanderers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564672",
+      "league": "La Liga",
+      "utc": "2026-09-13T12:00:00Z",
+      "home": "RC Celta de Vigo",
+      "away": "Málaga CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558895",
+      "league": "Eredivisie",
+      "utc": "2026-09-13T12:30:00Z",
+      "home": "SC Heerenveen",
+      "away": "Telstar 1963",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "560578",
+      "league": "Premier League",
+      "utc": "2026-09-13T13:00:00Z",
+      "home": "Coventry City FC",
+      "away": "Brighton & Hove Albion FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "558605",
+      "league": "Serie A",
+      "utc": "2026-09-13T13:00:00Z",
+      "home": "US Lecce",
+      "away": "AC Monza",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "559685",
+      "league": "Ligue 1",
+      "utc": "2026-09-13T13:00:00Z",
+      "home": "Lille OSC",
+      "away": "ES Troyes AC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "565799",
+      "league": "Bundesliga",
+      "utc": "2026-09-13T13:30:00Z",
+      "home": "RB Leipzig",
+      "away": "Hamburger SV",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "564675",
+      "league": "La Liga",
+      "utc": "2026-09-13T14:15:00Z",
+      "home": "Levante UD",
+      "away": "FC Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "558891",
+      "league": "Eredivisie",
+      "utc": "2026-09-13T14:45:00Z",
+      "home": "PEC Zwolle",
+      "away": "Feyenoord Rotterdam",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 7
+      }
+    },
+    {
+      "id": "559686",
+      "league": "Ligue 1",
+      "utc": "2026-09-13T15:15:00Z",
+      "home": "Le Mans FC",
+      "away": "Racing Club de Lens",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "560580",
+      "league": "Premier League",
+      "utc": "2026-09-13T15:30:00Z",
+      "home": "Manchester United FC",
+      "away": "Manchester City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "565800",
+      "league": "Bundesliga",
+      "utc": "2026-09-13T15:30:00Z",
+      "home": "SV 07 Elversberg",
+      "away": "FC Bayern München",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "558599",
+      "league": "Serie A",
+      "utc": "2026-09-13T16:00:00Z",
+      "home": "SSC Napoli",
+      "away": "Bologna FC 1909",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564668",
+      "league": "La Liga",
+      "utc": "2026-09-13T16:30:00Z",
+      "home": "Getafe CF",
+      "away": "RC Deportivo La Coruña",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "567304",
+      "league": "Primeira Liga",
+      "utc": "2026-09-13T17:00:00Z",
+      "home": "Sport Lisboa e Benfica",
+      "away": "Gil Vicente FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "567310",
+      "league": "Primeira Liga",
+      "utc": "2026-09-13T17:00:00Z",
+      "home": "FC Arouca",
+      "away": "CD Santa Clara",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "558893",
+      "league": "Eredivisie",
+      "utc": "2026-09-13T18:00:00Z",
+      "home": "PSV",
+      "away": "Sparta Rotterdam",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "558608",
+      "league": "Serie A",
+      "utc": "2026-09-13T18:45:00Z",
+      "home": "US Sassuolo Calcio",
+      "away": "Juventus FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "559691",
+      "league": "Ligue 1",
+      "utc": "2026-09-13T18:45:00Z",
+      "home": "Stade Brestois 29",
+      "away": "Paris Saint-Germain FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564674",
+      "league": "La Liga",
+      "utc": "2026-09-13T19:00:00Z",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Club Atlético de Madrid",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "567305",
+      "league": "Primeira Liga",
+      "utc": "2026-09-13T19:30:00Z",
+      "home": "FC Famalicão",
+      "away": "Sporting Clube de Portugal",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "558602",
+      "league": "Serie A",
+      "utc": "2026-09-14T16:30:00Z",
+      "home": "Como 1907",
+      "away": "Parma Calcio 1913",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "558603",
+      "league": "Serie A",
+      "utc": "2026-09-14T16:30:00Z",
+      "home": "Torino FC",
+      "away": "AS Roma",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "567303",
+      "league": "Primeira Liga",
+      "utc": "2026-09-14T17:45:00Z",
+      "home": "Rio Ave FC",
+      "away": "CF Estrela da Amadora",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "558601",
+      "league": "Serie A",
+      "utc": "2026-09-14T18:45:00Z",
+      "home": "FC Internazionale Milano",
+      "away": "Udinese Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 3
+      }
+    },
+    {
+      "id": "560579",
+      "league": "Premier League",
+      "utc": "2026-09-14T19:00:00Z",
+      "home": "Leeds United FC",
+      "away": "Newcastle United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "564671",
+      "league": "La Liga",
+      "utc": "2026-09-14T19:00:00Z",
+      "home": "Villarreal CF",
+      "away": "Real Betis Balompié",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "567302",
+      "league": "Primeira Liga",
+      "utc": "2026-09-14T19:15:00Z",
+      "home": "Moreirense FC",
+      "away": "CS Marítimo",
+      "status": "FINISHED",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "567308",
+      "league": "Primeira Liga",
+      "utc": "2026-09-14T19:45:00Z",
+      "home": "Sporting Clube de Braga",
+      "away": "GD Estoril Praia",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "564678",
+      "league": "La Liga",
+      "utc": "2026-09-15T17:00:00Z",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "RCD Espanyol de Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "564680",
+      "league": "La Liga",
+      "utc": "2026-09-15T18:00:00Z",
+      "home": "Deportivo Alavés",
+      "away": "Valencia CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "558240",
+      "league": "Eredivisie",
+      "utc": "2026-09-15T18:00:00Z",
+      "home": "AFC Ajax",
+      "away": "Willem II Tilburg",
+      "status": "FINISHED",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "561825",
+      "league": "Championship",
+      "utc": "2026-09-15T18:45:00Z",
+      "home": "Middlesbrough FC",
+      "away": "Millwall FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "561828",
+      "league": "Championship",
+      "utc": "2026-09-15T18:45:00Z",
+      "home": "Bristol City FC",
+      "away": "Lincoln City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564681",
+      "league": "La Liga",
+      "utc": "2026-09-15T19:30:00Z",
+      "home": "Elche CF",
+      "away": "Real Madrid CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "564679",
+      "league": "La Liga",
+      "utc": "2026-09-16T17:00:00Z",
+      "home": "RC Deportivo La Coruña",
+      "away": "Sevilla FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "564684",
+      "league": "La Liga",
+      "utc": "2026-09-16T17:00:00Z",
+      "home": "Club Atlético de Madrid",
+      "away": "CA Osasuna",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "564687",
+      "league": "La Liga",
+      "utc": "2026-09-16T19:30:00Z",
+      "home": "FC Barcelona",
+      "away": "Real Racing Club de Santander",
+      "status": "FINISHED",
+      "score": {
+        "home": 7,
+        "away": 2
+      }
+    },
     {
       "id": "564686",
       "league": "La Liga",
@@ -32,7 +4304,7 @@
       "utc": "2026-09-18T18:00:00Z",
       "home": "FC Groningen",
       "away": "PEC Zwolle",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "score": {
         "home": 3,
         "away": 0
@@ -46,7 +4318,7 @@
       "away": "1. FC Union Berlin",
       "status": "IN_PLAY",
       "score": {
-        "home": 3,
+        "home": 4,
         "away": 0
       }
     },
@@ -58,7 +4330,7 @@
       "away": "US Sassuolo Calcio",
       "status": "IN_PLAY",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       }
     },
@@ -95,7 +4367,7 @@
       "status": "IN_PLAY",
       "score": {
         "home": 0,
-        "away": 0
+        "away": 2
       }
     },
     {
@@ -106,7 +4378,7 @@
       "away": "Watford FC",
       "status": "IN_PLAY",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       }
     },
