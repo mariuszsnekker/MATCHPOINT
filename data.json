@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-09-18T20:40:13.174671+00:00",
+  "updatedAt": "2026-09-19T06:28:53.450971+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "564628",
-      "league": "La Liga",
-      "utc": "2026-08-19T19:00:00Z",
-      "home": "Club Atlético de Madrid",
-      "away": "Málaga CF",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 0
-      }
-    },
     {
       "id": "564638",
       "league": "La Liga",
@@ -4328,7 +4316,7 @@
       "utc": "2026-09-18T18:45:00Z",
       "home": "AC Monza",
       "away": "US Sassuolo Calcio",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "score": {
         "home": 2,
         "away": 1
@@ -4340,7 +4328,7 @@
       "utc": "2026-09-18T18:45:00Z",
       "home": "AS Monaco FC",
       "away": "Racing Club de Lens",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "score": {
         "home": 2,
         "away": 1
@@ -4352,9 +4340,9 @@
       "utc": "2026-09-18T19:00:00Z",
       "home": "Brentford FC",
       "away": "Chelsea FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "score": {
-        "home": 1,
+        "home": 3,
         "away": 0
       }
     },
@@ -4364,10 +4352,10 @@
       "utc": "2026-09-18T19:00:00Z",
       "home": "RCD Espanyol de Barcelona",
       "away": "Elche CF",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "score": {
-        "home": 0,
-        "away": 2
+        "home": 1,
+        "away": 3
       }
     },
     {
@@ -4376,7 +4364,7 @@
       "utc": "2026-09-18T19:00:00Z",
       "home": "Bristol City FC",
       "away": "Watford FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "score": {
         "home": 1,
         "away": 0
@@ -10538,6 +10526,18 @@
       "status": "FINISHED",
       "score": {
         "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "565804",
+      "league": "Bundesliga",
+      "utc": "2026-09-18T18:30:00Z",
+      "home": "FC Bayern München",
+      "away": "1. FC Union Berlin",
+      "status": "FINISHED",
+      "score": {
+        "home": 7,
         "away": 0
       }
     }
