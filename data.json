@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-09-24T06:30:54.191880+00:00",
+  "updatedAt": "2026-09-25T06:31:15.771105+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "564637",
-      "league": "La Liga",
-      "utc": "2026-08-25T19:00:00Z",
-      "home": "Valencia CF",
-      "away": "Real Betis Balompié",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 1
-      }
-    },
     {
       "id": "564631",
       "league": "La Liga",
