@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-09-25T06:31:15.771105+00:00",
+  "updatedAt": "2026-09-26T06:29:27.279449+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "564631",
-      "league": "La Liga",
-      "utc": "2026-08-26T19:00:00Z",
-      "home": "Real Madrid CF",
-      "away": "Real Sociedad de Fútbol",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 1
-      }
-    },
     {
       "id": "564636",
       "league": "La Liga",
