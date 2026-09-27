@@ -1,31 +1,7 @@
 {
-  "updatedAt": "2026-09-26T06:29:27.279449+00:00",
+  "updatedAt": "2026-09-27T06:30:08.554248+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "564636",
-      "league": "La Liga",
-      "utc": "2026-08-27T18:30:00Z",
-      "home": "RC Celta de Vigo",
-      "away": "CA Osasuna",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 2
-      }
-    },
-    {
-      "id": "564630",
-      "league": "La Liga",
-      "utc": "2026-08-27T19:00:00Z",
-      "home": "FC Barcelona",
-      "away": "Athletic Club",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 0
-      }
-    },
     {
       "id": "564654",
       "league": "La Liga",
