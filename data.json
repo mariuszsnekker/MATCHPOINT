@@ -1,103 +1,7 @@
 {
-  "updatedAt": "2026-10-01T06:34:52.269567+00:00",
+  "updatedAt": "2026-10-02T06:33:09.752651+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "561798",
-      "league": "Championship",
-      "utc": "2026-09-01T18:45:00Z",
-      "home": "Preston North End FC",
-      "away": "Bristol City FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 3
-      }
-    },
-    {
-      "id": "561799",
-      "league": "Championship",
-      "utc": "2026-09-01T18:45:00Z",
-      "home": "West Ham United FC",
-      "away": "Wolverhampton Wanderers FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 2
-      }
-    },
-    {
-      "id": "561800",
-      "league": "Championship",
-      "utc": "2026-09-01T18:45:00Z",
-      "home": "Lincoln City FC",
-      "away": "Blackburn Rovers FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "561801",
-      "league": "Championship",
-      "utc": "2026-09-01T18:45:00Z",
-      "home": "Sheffield United FC",
-      "away": "Bolton Wanderers FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 3,
-        "away": 2
-      }
-    },
-    {
-      "id": "561802",
-      "league": "Championship",
-      "utc": "2026-09-01T18:45:00Z",
-      "home": "Portsmouth FC",
-      "away": "Derby County FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 2
-      }
-    },
-    {
-      "id": "561804",
-      "league": "Championship",
-      "utc": "2026-09-01T18:45:00Z",
-      "home": "Swansea City AFC",
-      "away": "Watford FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 0
-      }
-    },
-    {
-      "id": "561797",
-      "league": "Championship",
-      "utc": "2026-09-01T19:00:00Z",
-      "home": "Stoke City FC",
-      "away": "Norwich City FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
-      "id": "561803",
-      "league": "Championship",
-      "utc": "2026-09-01T19:00:00Z",
-      "home": "Birmingham City FC",
-      "away": "Southampton FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
     {
       "id": "561806",
       "league": "Championship",
@@ -3469,10 +3373,193 @@
         "home": 3,
         "away": 1
       }
+    },
+    {
+      "id": "567327",
+      "league": "Primeira Liga",
+      "utc": "2026-10-09T17:45:00Z",
+      "home": "Moreirense FC",
+      "away": "Gil Vicente FC",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558881",
+      "league": "Eredivisie",
+      "utc": "2026-10-09T18:00:00Z",
+      "home": "PSV",
+      "away": "SC Heerenveen",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565820",
+      "league": "Bundesliga",
+      "utc": "2026-10-09T18:30:00Z",
+      "home": "Borussia Dortmund",
+      "away": "SV Werder Bremen",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559669",
+      "league": "Ligue 1",
+      "utc": "2026-10-09T18:45:00Z",
+      "home": "Racing Club de Lens",
+      "away": "Olympique Lyonnais",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564706",
+      "league": "La Liga",
+      "utc": "2026-10-09T19:00:00Z",
+      "home": "Málaga CF",
+      "away": "RCD Espanyol de Barcelona",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "561862",
+      "league": "Championship",
+      "utc": "2026-10-09T19:00:00Z",
+      "home": "West Ham United FC",
+      "away": "Queens Park Rangers FC",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "567326",
+      "league": "Primeira Liga",
+      "utc": "2026-10-09T19:15:00Z",
+      "home": "Sporting Clube de Braga",
+      "away": "Sporting Clube de Portugal",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
     }
   ],
   "errors": [],
-  "predictions": [],
+  "predictions": [
+    {
+      "matchId": "567327",
+      "home": "Moreirense FC",
+      "away": "Gil Vicente FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 2
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "558881",
+      "home": "PSV",
+      "away": "SC Heerenveen",
+      "homeForm": {
+        "matches": 5,
+        "points": 7
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "565820",
+      "home": "Borussia Dortmund",
+      "away": "SV Werder Bremen",
+      "homeForm": {
+        "matches": 5,
+        "points": 15
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "559669",
+      "home": "Racing Club de Lens",
+      "away": "Olympique Lyonnais",
+      "homeForm": {
+        "matches": 5,
+        "points": 5
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "564706",
+      "home": "Málaga CF",
+      "away": "RCD Espanyol de Barcelona",
+      "homeForm": {
+        "matches": 5,
+        "points": 1
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 3
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "561862",
+      "home": "West Ham United FC",
+      "away": "Queens Park Rangers FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 5
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "567326",
+      "home": "Sporting Clube de Braga",
+      "away": "Sporting Clube de Portugal",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 7
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    }
+  ],
   "history": [
     {
       "id": "564686",
