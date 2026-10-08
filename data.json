@@ -1,67 +1,7 @@
 {
-  "updatedAt": "2026-10-07T06:33:10.643889+00:00",
+  "updatedAt": "2026-10-08T06:35:48.812899+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "558610",
-      "league": "Serie A",
-      "utc": "2026-09-07T16:30:00Z",
-      "home": "Cagliari Calcio",
-      "away": "US Lecce",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
-      "id": "564665",
-      "league": "La Liga",
-      "utc": "2026-09-07T17:00:00Z",
-      "home": "Getafe CF",
-      "away": "RC Celta de Vigo",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
-    {
-      "id": "558617",
-      "league": "Serie A",
-      "utc": "2026-09-07T18:45:00Z",
-      "home": "Udinese Calcio",
-      "away": "SS Lazio",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 2
-      }
-    },
-    {
-      "id": "567295",
-      "league": "Primeira Liga",
-      "utc": "2026-09-07T19:15:00Z",
-      "home": "GD Estoril Praia",
-      "away": "FC Arouca",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "564658",
-      "league": "La Liga",
-      "utc": "2026-09-07T19:30:00Z",
-      "home": "Elche CF",
-      "away": "Real Sociedad de Fútbol",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 3
-      }
-    },
     {
       "id": "558252",
       "league": "Eredivisie",
