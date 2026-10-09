@@ -1,175 +1,7 @@
 {
-  "updatedAt": "2026-10-08T06:35:48.812899+00:00",
+  "updatedAt": "2026-10-09T06:35:31.452253+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "558252",
-      "league": "Eredivisie",
-      "utc": "2026-09-08T12:00:00Z",
-      "home": "FC Utrecht",
-      "away": "Go Ahead Eagles",
-      "status": "FINISHED",
-      "score": {
-        "home": 3,
-        "away": 3
-      }
-    },
-    {
-      "id": "558233",
-      "league": "Eredivisie",
-      "utc": "2026-09-08T16:45:00Z",
-      "home": "NEC",
-      "away": "SBV Excelsior",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 2
-      }
-    },
-    {
-      "id": "575323",
-      "league": "Liga Mistrzów",
-      "utc": "2026-09-08T16:45:00Z",
-      "home": "Club Brugge KV",
-      "away": "Aston Villa FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 3
-      }
-    },
-    {
-      "id": "575324",
-      "league": "Liga Mistrzów",
-      "utc": "2026-09-08T16:45:00Z",
-      "home": "PAE AEK",
-      "away": "LASK Linz",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
-      "id": "561821",
-      "league": "Championship",
-      "utc": "2026-09-08T18:45:00Z",
-      "home": "Blackburn Rovers FC",
-      "away": "Sheffield United FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 2
-      }
-    },
-    {
-      "id": "561822",
-      "league": "Championship",
-      "utc": "2026-09-08T18:45:00Z",
-      "home": "Southampton FC",
-      "away": "Swansea City AFC",
-      "status": "FINISHED",
-      "score": {
-        "home": 3,
-        "away": 1
-      }
-    },
-    {
-      "id": "561823",
-      "league": "Championship",
-      "utc": "2026-09-08T18:45:00Z",
-      "home": "Watford FC",
-      "away": "Preston North End FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 1
-      }
-    },
-    {
-      "id": "561824",
-      "league": "Championship",
-      "utc": "2026-09-08T18:45:00Z",
-      "home": "Cardiff City FC",
-      "away": "Stoke City FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
-    {
-      "id": "561830",
-      "league": "Championship",
-      "utc": "2026-09-08T18:45:00Z",
-      "home": "Wrexham AFC",
-      "away": "Burnley FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
-    {
-      "id": "575325",
-      "league": "Liga Mistrzów",
-      "utc": "2026-09-08T19:00:00Z",
-      "home": "Real Madrid CF",
-      "away": "FC Internazionale Milano",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 1
-      }
-    },
-    {
-      "id": "575326",
-      "league": "Liga Mistrzów",
-      "utc": "2026-09-08T19:00:00Z",
-      "home": "FC Porto",
-      "away": "Manchester City FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 2
-      }
-    },
-    {
-      "id": "575327",
-      "league": "Liga Mistrzów",
-      "utc": "2026-09-08T19:00:00Z",
-      "home": "Borussia Dortmund",
-      "away": "Villarreal CF",
-      "status": "FINISHED",
-      "score": {
-        "home": 3,
-        "away": 2
-      }
-    },
-    {
-      "id": "575328",
-      "league": "Liga Mistrzów",
-      "utc": "2026-09-08T19:00:00Z",
-      "home": "Lille OSC",
-      "away": "Real Betis Balompié",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 3
-      }
-    },
-    {
-      "id": "561827",
-      "league": "Championship",
-      "utc": "2026-09-08T19:00:00Z",
-      "home": "Bolton Wanderers FC",
-      "away": "West Ham United FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 3
-      }
-    },
     {
       "id": "558239",
       "league": "Eredivisie",
@@ -3685,6 +3517,78 @@
         "home": null,
         "away": null
       }
+    },
+    {
+      "id": "558872",
+      "league": "Eredivisie",
+      "utc": "2026-10-16T18:00:00Z",
+      "home": "SC Heerenveen",
+      "away": "SBV Excelsior",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565828",
+      "league": "Bundesliga",
+      "utc": "2026-10-16T18:30:00Z",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558573",
+      "league": "Serie A",
+      "utc": "2026-10-16T18:45:00Z",
+      "home": "Frosinone Calcio",
+      "away": "US Sassuolo Calcio",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559661",
+      "league": "Ligue 1",
+      "utc": "2026-10-16T18:45:00Z",
+      "home": "Le Mans FC",
+      "away": "Toulouse FC",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564716",
+      "league": "La Liga",
+      "utc": "2026-10-16T19:00:00Z",
+      "home": "RC Deportivo La Coruña",
+      "away": "Levante UD",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "561883",
+      "league": "Championship",
+      "utc": "2026-10-16T19:00:00Z",
+      "home": "Burnley FC",
+      "away": "Wolverhampton Wanderers FC",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
     }
   ],
   "errors": [],
@@ -4902,7 +4806,7 @@
         "points": 8
       },
       "awayForm": {
-        "matches": 2,
+        "matches": 1,
         "points": 0
       },
       "note": "Za mało danych"
@@ -5024,7 +4928,7 @@
       "home": "LASK Linz",
       "away": "Liverpool FC",
       "homeForm": {
-        "matches": 2,
+        "matches": 1,
         "points": 0
       },
       "awayForm": {
@@ -5168,8 +5072,8 @@
         "points": 2
       },
       "awayForm": {
-        "matches": 2,
-        "points": 6
+        "matches": 1,
+        "points": 3
       },
       "note": "Za mało danych"
     },
@@ -5198,6 +5102,90 @@
       "awayForm": {
         "matches": 5,
         "points": 11
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "558872",
+      "home": "SC Heerenveen",
+      "away": "SBV Excelsior",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 3
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "565828",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 2
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "558573",
+      "home": "Frosinone Calcio",
+      "away": "US Sassuolo Calcio",
+      "homeForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 7
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "559661",
+      "home": "Le Mans FC",
+      "away": "Toulouse FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 9
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "564716",
+      "home": "RC Deportivo La Coruña",
+      "away": "Levante UD",
+      "homeForm": {
+        "matches": 5,
+        "points": 3
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 1
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "561883",
+      "home": "Burnley FC",
+      "away": "Wolverhampton Wanderers FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 3
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 13
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     }
