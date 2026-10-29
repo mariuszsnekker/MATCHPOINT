@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T12:50:05.853099+00:00",
+  "updatedAt": "2026-10-29T12:56:55.169765+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
     {
@@ -3356,10 +3356,10 @@
       "utc": "2026-10-28T17:30:00Z",
       "home": "AC Milan",
       "away": "Bologna FC 1909",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 4
       }
     },
     {
@@ -3368,10 +3368,10 @@
       "utc": "2026-10-28T17:30:00Z",
       "home": "Venezia FC",
       "away": "FC Internazionale Milano",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       }
     },
     {
@@ -3380,10 +3380,10 @@
       "utc": "2026-10-28T17:30:00Z",
       "home": "Parma Calcio 1913",
       "away": "Udinese Calcio",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -3392,10 +3392,10 @@
       "utc": "2026-10-28T19:45:00Z",
       "home": "Genoa CFC",
       "away": "Juventus FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -3404,10 +3404,10 @@
       "utc": "2026-10-28T19:45:00Z",
       "home": "AC Monza",
       "away": "SSC Napoli",
-      "status": "TIMED",
+      "status": "FINISHED",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 4
       }
     },
     {
@@ -4737,76 +4737,6 @@
   ],
   "predictions": [
     {
-      "matchId": "558549",
-      "home": "AC Milan",
-      "away": "Bologna FC 1909",
-      "homeForm": {
-        "matches": 5,
-        "points": 13
-      },
-      "awayForm": {
-        "matches": 5,
-        "points": 9
-      },
-      "note": "Porównanie formy z ostatnich 5 meczów"
-    },
-    {
-      "matchId": "558550",
-      "home": "Venezia FC",
-      "away": "FC Internazionale Milano",
-      "homeForm": {
-        "matches": 5,
-        "points": 6
-      },
-      "awayForm": {
-        "matches": 5,
-        "points": 15
-      },
-      "note": "Porównanie formy z ostatnich 5 meczów"
-    },
-    {
-      "matchId": "558553",
-      "home": "Parma Calcio 1913",
-      "away": "Udinese Calcio",
-      "homeForm": {
-        "matches": 5,
-        "points": 0
-      },
-      "awayForm": {
-        "matches": 5,
-        "points": 0
-      },
-      "note": "Porównanie formy z ostatnich 5 meczów"
-    },
-    {
-      "matchId": "558552",
-      "home": "Genoa CFC",
-      "away": "Juventus FC",
-      "homeForm": {
-        "matches": 5,
-        "points": 9
-      },
-      "awayForm": {
-        "matches": 5,
-        "points": 7
-      },
-      "note": "Porównanie formy z ostatnich 5 meczów"
-    },
-    {
-      "matchId": "558554",
-      "home": "AC Monza",
-      "away": "SSC Napoli",
-      "homeForm": {
-        "matches": 5,
-        "points": 6
-      },
-      "awayForm": {
-        "matches": 5,
-        "points": 8
-      },
-      "note": "Porównanie formy z ostatnich 5 meczów"
-    },
-    {
       "matchId": "558558",
       "home": "Frosinone Calcio",
       "away": "US Lecce",
@@ -5316,7 +5246,7 @@
       "away": "AS Roma",
       "homeForm": {
         "matches": 5,
-        "points": 0
+        "points": 1
       },
       "awayForm": {
         "matches": 5,
@@ -5400,7 +5330,7 @@
       "away": "FC Internazionale Milano",
       "homeForm": {
         "matches": 5,
-        "points": 13
+        "points": 12
       },
       "awayForm": {
         "matches": 5,
@@ -5572,7 +5502,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 12
+        "points": 9
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -5778,11 +5708,11 @@
       "away": "SSC Napoli",
       "homeForm": {
         "matches": 5,
-        "points": 7
+        "points": 6
       },
       "awayForm": {
         "matches": 5,
-        "points": 8
+        "points": 11
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -5852,7 +5782,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 0
+        "points": 1
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -6300,7 +6230,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 8
+        "points": 11
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -14878,6 +14808,42 @@
       "score": {
         "home": 2,
         "away": 0
+      }
+    },
+    {
+      "id": "558556",
+      "league": "Serie A",
+      "utc": "2026-10-27T17:30:00Z",
+      "home": "US Sassuolo Calcio",
+      "away": "SS Lazio",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 6
+      }
+    },
+    {
+      "id": "558555",
+      "league": "Serie A",
+      "utc": "2026-10-27T19:45:00Z",
+      "home": "AS Roma",
+      "away": "Cagliari Calcio",
+      "status": "FINISHED",
+      "score": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "558557",
+      "league": "Serie A",
+      "utc": "2026-10-27T19:45:00Z",
+      "home": "Torino FC",
+      "away": "Como 1907",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
       }
     }
   ]
