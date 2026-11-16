@@ -1,79 +1,7 @@
 {
-  "updatedAt": "2026-11-15T13:53:41.077471+00:00",
+  "updatedAt": "2026-11-16T15:40:26.925935+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "558872",
-      "league": "Eredivisie",
-      "utc": "2026-10-16T18:00:00Z",
-      "home": "SC Heerenveen",
-      "away": "SBV Excelsior",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 0
-      }
-    },
-    {
-      "id": "565828",
-      "league": "Bundesliga",
-      "utc": "2026-10-16T18:30:00Z",
-      "home": "Eintracht Frankfurt",
-      "away": "1. FC Köln",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
-      "id": "558573",
-      "league": "Serie A",
-      "utc": "2026-10-16T18:45:00Z",
-      "home": "Frosinone Calcio",
-      "away": "US Sassuolo Calcio",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 2
-      }
-    },
-    {
-      "id": "559661",
-      "league": "Ligue 1",
-      "utc": "2026-10-16T18:45:00Z",
-      "home": "Le Mans FC",
-      "away": "Toulouse FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 3
-      }
-    },
-    {
-      "id": "564716",
-      "league": "La Liga",
-      "utc": "2026-10-16T19:00:00Z",
-      "home": "RC Deportivo La Coruña",
-      "away": "Levante UD",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
-    {
-      "id": "561883",
-      "league": "Championship",
-      "utc": "2026-10-16T19:00:00Z",
-      "home": "Burnley FC",
-      "away": "Wolverhampton Wanderers FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 2
-      }
-    },
     {
       "id": "560603",
       "league": "Premier League",
@@ -5149,6 +5077,42 @@
         "home": null,
         "away": null
       }
+    },
+    {
+      "id": "558519",
+      "league": "Serie A",
+      "utc": "2026-11-23T19:45:00Z",
+      "home": "AC Monza",
+      "away": "ACF Fiorentina",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560649",
+      "league": "Premier League",
+      "utc": "2026-11-23T20:00:00Z",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564757",
+      "league": "La Liga",
+      "utc": "2026-11-23T20:00:00Z",
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
     }
   ],
   "errors": [
@@ -6073,6 +6037,48 @@
       "homeForm": {
         "matches": 5,
         "points": 6
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 3
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "558519",
+      "home": "AC Monza",
+      "away": "ACF Fiorentina",
+      "homeForm": {
+        "matches": 5,
+        "points": 0
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 9
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "560649",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 7
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 12
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "564757",
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "homeForm": {
+        "matches": 5,
+        "points": 2
       },
       "awayForm": {
         "matches": 5,
