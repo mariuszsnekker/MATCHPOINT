@@ -1,67 +1,7 @@
 {
-  "updatedAt": "2026-11-18T15:36:04.424371+00:00",
+  "updatedAt": "2026-11-19T15:42:01.752634+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "558576",
-      "league": "Serie A",
-      "utc": "2026-10-19T16:30:00Z",
-      "home": "AC Monza",
-      "away": "Cagliari Calcio",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 0
-      }
-    },
-    {
-      "id": "558578",
-      "league": "Serie A",
-      "utc": "2026-10-19T18:45:00Z",
-      "home": "Parma Calcio 1913",
-      "away": "Torino FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 0,
-        "away": 3
-      }
-    },
-    {
-      "id": "560606",
-      "league": "Premier League",
-      "utc": "2026-10-19T19:00:00Z",
-      "home": "Tottenham Hotspur FC",
-      "away": "Coventry City FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 3,
-        "away": 1
-      }
-    },
-    {
-      "id": "564717",
-      "league": "La Liga",
-      "utc": "2026-10-19T19:00:00Z",
-      "home": "Getafe CF",
-      "away": "Rayo Vallecano de Madrid",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
-    {
-      "id": "567271",
-      "league": "Primeira Liga",
-      "utc": "2026-10-19T19:15:00Z",
-      "home": "Sporting Clube de Braga",
-      "away": "Gil Vicente FC",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 2
-      }
-    },
     {
       "id": "575359",
       "league": "Liga Mistrzów",
