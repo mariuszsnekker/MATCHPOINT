@@ -1,43 +1,7 @@
 {
-  "updatedAt": "2026-11-26T16:50:36.530551+00:00",
+  "updatedAt": "2026-11-27T16:36:36.429010+00:00",
   "source": "football-data.org + TheSportsDB",
   "matches": [
-    {
-      "id": "558556",
-      "league": "Serie A",
-      "utc": "2026-10-27T17:30:00Z",
-      "home": "US Sassuolo Calcio",
-      "away": "SS Lazio",
-      "status": "FINISHED",
-      "score": {
-        "home": 2,
-        "away": 6
-      }
-    },
-    {
-      "id": "558555",
-      "league": "Serie A",
-      "utc": "2026-10-27T19:45:00Z",
-      "home": "AS Roma",
-      "away": "Cagliari Calcio",
-      "status": "FINISHED",
-      "score": {
-        "home": 4,
-        "away": 2
-      }
-    },
-    {
-      "id": "558557",
-      "league": "Serie A",
-      "utc": "2026-10-27T19:45:00Z",
-      "home": "Torino FC",
-      "away": "Como 1907",
-      "status": "FINISHED",
-      "score": {
-        "home": 1,
-        "away": 3
-      }
-    },
     {
       "id": "558549",
       "league": "Serie A",
@@ -4609,6 +4573,90 @@
         "home": null,
         "away": null
       }
+    },
+    {
+      "id": "558812",
+      "league": "Eredivisie",
+      "utc": "2026-12-04T19:00:00Z",
+      "home": "Telstar 1963",
+      "away": "FC Groningen",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565882",
+      "league": "Bundesliga",
+      "utc": "2026-12-04T19:30:00Z",
+      "home": "FC Bayern München",
+      "away": "SC Paderborn 07",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558502",
+      "league": "Serie A",
+      "utc": "2026-12-04T19:45:00Z",
+      "home": "Bologna FC 1909",
+      "away": "AS Roma",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559609",
+      "league": "Ligue 1",
+      "utc": "2026-12-04T19:45:00Z",
+      "home": "Toulouse FC",
+      "away": "Paris Saint-Germain FC",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564770",
+      "league": "La Liga",
+      "utc": "2026-12-04T20:00:00Z",
+      "home": "Deportivo Alavés",
+      "away": "RCD Espanyol de Barcelona",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "561979",
+      "league": "Championship",
+      "utc": "2026-12-04T20:00:00Z",
+      "home": "Sheffield United FC",
+      "away": "West Ham United FC",
+      "status": "SCHEDULED",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "567365",
+      "league": "Primeira Liga",
+      "utc": "2026-12-04T20:15:00Z",
+      "home": "Sporting Clube de Portugal",
+      "away": "CS Marítimo",
+      "status": "TIMED",
+      "score": {
+        "home": null,
+        "away": null
+      }
     }
   ],
   "errors": [
@@ -4850,7 +4898,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 8
+        "points": 5
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -4948,7 +4996,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 2
+        "points": 1
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -5088,7 +5136,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 9
+        "points": 12
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -5098,7 +5146,7 @@
       "away": "Eintracht Frankfurt",
       "homeForm": {
         "matches": 5,
-        "points": 8
+        "points": 5
       },
       "awayForm": {
         "matches": 5,
@@ -5196,7 +5244,7 @@
       "away": "FC Lorient",
       "homeForm": {
         "matches": 5,
-        "points": 13
+        "points": 11
       },
       "awayForm": {
         "matches": 5,
@@ -5518,7 +5566,7 @@
       "away": "AC Monza",
       "homeForm": {
         "matches": 5,
-        "points": 13
+        "points": 11
       },
       "awayForm": {
         "matches": 5,
@@ -5634,7 +5682,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 13
+        "points": 11
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -5858,7 +5906,7 @@
       },
       "awayForm": {
         "matches": 5,
-        "points": 9
+        "points": 12
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     },
@@ -5873,6 +5921,104 @@
       "awayForm": {
         "matches": 5,
         "points": 5
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "558812",
+      "home": "Telstar 1963",
+      "away": "FC Groningen",
+      "homeForm": {
+        "matches": 5,
+        "points": 5
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 0
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "565882",
+      "home": "FC Bayern München",
+      "away": "SC Paderborn 07",
+      "homeForm": {
+        "matches": 5,
+        "points": 5
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 3
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "558502",
+      "home": "Bologna FC 1909",
+      "away": "AS Roma",
+      "homeForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "559609",
+      "home": "Toulouse FC",
+      "away": "Paris Saint-Germain FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "564770",
+      "home": "Deportivo Alavés",
+      "away": "RCD Espanyol de Barcelona",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "561979",
+      "home": "Sheffield United FC",
+      "away": "West Ham United FC",
+      "homeForm": {
+        "matches": 5,
+        "points": 8
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 2
+      },
+      "note": "Porównanie formy z ostatnich 5 meczów"
+    },
+    {
+      "matchId": "567365",
+      "home": "Sporting Clube de Portugal",
+      "away": "CS Marítimo",
+      "homeForm": {
+        "matches": 5,
+        "points": 11
+      },
+      "awayForm": {
+        "matches": 5,
+        "points": 1
       },
       "note": "Porównanie formy z ostatnich 5 meczów"
     }
@@ -17780,6 +17926,162 @@
       "score": {
         "home": 3,
         "away": 0
+      }
+    },
+    {
+      "id": "575404",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T17:45:00Z",
+      "home": "Sabah FK",
+      "away": "FC Barcelona",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "575405",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T17:45:00Z",
+      "home": "SK Slavia Praha",
+      "away": "Villarreal CF",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561961",
+      "league": "Championship",
+      "utc": "2026-11-25T19:45:00Z",
+      "home": "Watford FC",
+      "away": "Blackburn Rovers FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561963",
+      "league": "Championship",
+      "utc": "2026-11-25T19:45:00Z",
+      "home": "Bolton Wanderers FC",
+      "away": "West Bromwich Albion FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "561964",
+      "league": "Championship",
+      "utc": "2026-11-25T19:45:00Z",
+      "home": "Burnley FC",
+      "away": "Birmingham City FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "575406",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "FC Internazionale Milano",
+      "away": "VfB Stuttgart",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "575407",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "Club Atlético de Madrid",
+      "away": "Viking FK",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "575408",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "Paris Saint-Germain FC",
+      "away": "AS Roma",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "575409",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "Club Brugge KV",
+      "away": "Liverpool FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "575410",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "Lille OSC",
+      "away": "FC Bayern München",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "575411",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "Sporting Clube de Portugal",
+      "away": "Manchester United FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "575412",
+      "league": "Liga Mistrzów",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "FK Shakhtar Donetsk",
+      "away": "Fenerbahçe SK",
+      "status": "FINISHED",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "561962",
+      "league": "Championship",
+      "utc": "2026-11-25T20:00:00Z",
+      "home": "Stoke City FC",
+      "away": "Millwall FC",
+      "status": "FINISHED",
+      "score": {
+        "home": 2,
+        "away": 1
       }
     }
   ]
